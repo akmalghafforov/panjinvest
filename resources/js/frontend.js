@@ -1,3 +1,4 @@
+import {registerConcepts} from './concepts';
 import {boot} from './common';
 import {registerFrontend} from './frontend/pages';
-boot(registerFrontend);
+boot(Alpine => {registerFrontend(Alpine);registerConcepts(Alpine);});

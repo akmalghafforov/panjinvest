@@ -38,7 +38,7 @@ services:
     container_name: panjinvest-local-vite
     working_dir: /var/www/html
     restart: unless-stopped
-    command: sh -lc 'test -x node_modules/.bin/vite || npm ci; npm run dev -- --host 0.0.0.0'
+    command: sh -lc 'npm ci && npm run dev -- --host 0.0.0.0'
     ports:
       - "5173:5173"
     volumes:

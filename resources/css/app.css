@@ -6,6 +6,7 @@
 @source './utility-candidates.txt';
 @import 'tw-animate-css';
 @import './theme.css';
+@import './regional.css';
 [x-cloak]{display:none!important}
 button,a,select,input[type=checkbox]{cursor:pointer}
 

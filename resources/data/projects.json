@@ -1,0 +1,203 @@
+[
+  {
+    "id": "seven-lakes-guesthouses",
+    "title": "Seven Lakes Community Guesthouse Upgrades",
+    "sector": "Tourism",
+    "area": "Haftkul / Seven Lakes",
+    "lat": 39.18,
+    "lng": 67.85,
+    "description": "Improve village accommodation, sanitation and visitor facilities around Haftkul, working with local hosts.",
+    "status": "Proposed concept",
+    "readiness": "Feasibility required",
+    "location_note": "Approximate area — site not selected",
+    "image": 1,
+    "alt": "Mountain lake in the Fann Mountains of Tajikistan",
+    "context": "Landscape context",
+    "crop": "Center crop, 16:10; original linked in credits",
+    "references": [
+      "https://ztda-tourism.tj/tours/"
+    ],
+    "photograph": {
+      "source": "https://commons.wikimedia.org/wiki/File:Lakes_of_Tajikistan_31.JPG",
+      "author": "Шухрат Саъдиев",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "crop": "Center crop, 16:10; original linked in credits",
+      "context": "Landscape context",
+      "alt": "Mountain lake in the Fann Mountains of Tajikistan",
+      "sizes": [
+        480,
+        960,
+        1600
+      ]
+    }
+  },
+  {
+    "id": "panjakent-heritage-guesthouse",
+    "title": "Panjakent Heritage Guesthouse",
+    "sector": "Tourism",
+    "area": "Panjakent",
+    "lat": 39.49,
+    "lng": 67.61,
+    "description": "Develop small-scale accommodation for cultural visits around Panjakent and Sarazm.",
+    "status": "Proposed concept",
+    "readiness": "Feasibility required",
+    "location_note": "Approximate area — site not selected",
+    "image": 2,
+    "alt": "Ancient Panjakent archaeological landscape",
+    "context": "Destination context",
+    "crop": "Center crop, 16:10; original linked in credits",
+    "references": [
+      "https://ztda-tourism.tj/tours/"
+    ],
+    "photograph": {
+      "source": "https://commons.wikimedia.org/wiki/File:Penjikent_in_Tajikistan.jpg",
+      "author": "faqparigine",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "crop": "Center crop, 16:10; original linked in credits",
+      "context": "Destination context",
+      "alt": "Ancient Panjakent archaeological landscape",
+      "sizes": [
+        480,
+        960,
+        1600
+      ]
+    }
+  },
+  {
+    "id": "zarafshon-fruit-processing",
+    "title": "Zarafshon Fruit Drying and Packaging",
+    "sector": "Agriculture",
+    "area": "Panjakent",
+    "lat": 39.49,
+    "lng": 67.61,
+    "description": "Explore a facility for drying, grading and packaging locally grown fruit with producer partners.",
+    "status": "Proposed concept",
+    "readiness": "Feasibility required",
+    "location_note": "Approximate area — site not selected",
+    "image": 3,
+    "alt": "Fruit displayed at a Tajik cultural celebration",
+    "context": "Produce context; photograph taken in Dushanbe",
+    "crop": "Lower half of source, centered on produce; then responsive 16:10 display crop",
+    "references": [
+      "https://www.eeas.europa.eu/delegations/tajikistan/%E2%80%9Czerafshan-fruits-%E2%80%93-path-prosperity%E2%80%9D-small-holder-farmers%E2%80%99-union-collective_en"
+    ],
+    "research_note": "Local fruit-processing precedent; project feasibility remains unassessed.",
+    "photograph": {
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA_%22%D0%A2%D0%B8%D1%80%D0%B3%D0%B0%D0%BD%22_%D0%B2_%D0%B3._%D0%94%D1%83%D1%88%D0%B0%D0%BD%D0%B1%D0%B5_04.jpg",
+      "author": "Шухрат Саъдиев",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "crop": "Lower half of source, centered on produce; then responsive 16:10 display crop",
+      "context": "Produce context; photograph taken in Dushanbe",
+      "alt": "Fruit displayed at a Tajik cultural celebration",
+      "sizes": [
+        480,
+        960,
+        1600
+      ]
+    }
+  },
+  {
+    "id": "panjakent-cold-chain",
+    "title": "Panjakent Produce Cold Chain Hub",
+    "sector": "Agriculture",
+    "area": "Panjakent",
+    "lat": 39.49,
+    "lng": 67.61,
+    "description": "Assess cooling, collection and distribution services that help growers bring produce to market.",
+    "status": "Proposed concept",
+    "readiness": "Feasibility required",
+    "location_note": "Approximate area — site not selected",
+    "image": 4,
+    "alt": "Produce stalls at Panjakent bazaar",
+    "context": "Market context",
+    "crop": "Center crop, 16:10; original linked in credits",
+    "references": [
+      "https://www.eeas.europa.eu/delegations/tajikistan/%E2%80%9Czerafshan-fruits-%E2%80%93-path-prosperity%E2%80%9D-small-holder-farmers%E2%80%99-union-collective_en"
+    ],
+    "research_note": "Local fruit-processing precedent; project feasibility remains unassessed.",
+    "photograph": {
+      "source": "https://commons.wikimedia.org/wiki/File:Pajakent_Bazaar1.jpg",
+      "author": "upyernoz",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "crop": "Center crop, 16:10; original linked in credits",
+      "context": "Market context",
+      "alt": "Produce stalls at Panjakent bazaar",
+      "sizes": [
+        480,
+        960,
+        1600
+      ]
+    }
+  },
+  {
+    "id": "panjakent-suzani",
+    "title": "Panjakent Suzani Workshop and Showroom",
+    "sector": "Crafts",
+    "area": "Panjakent",
+    "lat": 39.49,
+    "lng": 67.61,
+    "description": "Bring craft production, visitor workshops and retail together in a proposed suzani studio.",
+    "status": "Proposed concept",
+    "readiness": "Feasibility required",
+    "location_note": "Approximate area — site not selected",
+    "image": 5,
+    "alt": "Traditional Tajik suzani embroidery",
+    "context": "Craft context",
+    "crop": "Center crop, 16:10; original linked in credits",
+    "references": [
+      "https://www.mfa.tj/ru/main/view/17698/prisvoenie-pandzhakentu-statusa-vsemirnogo-goroda-remjosel-za-vyshivku-suzani"
+    ],
+    "photograph": {
+      "source": "https://commons.wikimedia.org/wiki/File:Suzani,_a_Tajik_tapestry.jpg",
+      "author": "Parvision",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "crop": "Center crop, 16:10; original linked in credits",
+      "context": "Craft context",
+      "alt": "Traditional Tajik suzani embroidery",
+      "sizes": [
+        480,
+        960,
+        1600
+      ]
+    }
+  },
+  {
+    "id": "zarafshon-honey",
+    "title": "Zarafshon Honey Collection and Packaging",
+    "sector": "Agriculture",
+    "area": "Panjakent",
+    "lat": 39.49,
+    "lng": 67.61,
+    "description": "Explore producer collection, quality control and packaging services for regional honey.",
+    "status": "Proposed concept",
+    "readiness": "Feasibility required",
+    "location_note": "Approximate area — site not selected",
+    "image": 6,
+    "alt": "Mobile beehives in Tajikistan",
+    "context": "Beekeeping context",
+    "crop": "Center crop, 16:10; original linked in credits",
+    "references": [
+      "https://www.eeas.europa.eu/delegations/tajikistan/%E2%80%9Czerafshan-fruits-%E2%80%93-path-prosperity%E2%80%9D-small-holder-farmers%E2%80%99-union-collective_en"
+    ],
+    "research_note": "Regional producer collaboration precedent; this source does not establish honey supply or project feasibility.",
+    "photograph": {
+      "source": "https://commons.wikimedia.org/wiki/File:Mobile_beehive_in_Tajikistan.JPG",
+      "author": "Mr. Gadi Zafrir",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "crop": "Center crop, 16:10; original linked in credits",
+      "context": "Beekeeping context",
+      "alt": "Mobile beehives in Tajikistan",
+      "sizes": [
+        480,
+        960,
+        1600
+      ]
+    }
+  }
+]

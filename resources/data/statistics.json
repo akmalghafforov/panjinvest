@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Population",
+    "display": "10.79 million",
+    "value": 10786734,
+    "year": 2025,
+    "scope": "Tajikistan",
+    "source": "https://data.worldbank.org/country/tajikistan",
+    "verified": "2026-10-16"
+  },
+  {
+    "label": "GDP, current US dollars",
+    "display": "US$17.66 billion",
+    "value": 17660000000,
+    "year": 2025,
+    "scope": "Tajikistan",
+    "source": "https://data.worldbank.org/country/tajikistan",
+    "verified": "2026-10-16"
+  },
+  {
+    "label": "Annual GDP growth",
+    "display": "8.4%",
+    "value": 8.4,
+    "year": 2025,
+    "scope": "Tajikistan",
+    "source": "https://data.worldbank.org/country/tajikistan",
+    "verified": "2026-10-16"
+  },
+  {
+    "label": "Consumer price inflation",
+    "display": "3.4%",
+    "value": 3.4,
+    "year": 2025,
+    "scope": "Tajikistan",
+    "source": "https://data.worldbank.org/country/tajikistan",
+    "verified": "2026-10-16"
+  }
+]

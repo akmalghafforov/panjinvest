@@ -9,6 +9,7 @@
 
 @include('components.context')
 @vite(['resources/css/app.css', 'resources/js/frontend.js'])
+@isset($projects)<script>window.conceptData = {{ Illuminate\Support\Js::from($projects) }}; window.conceptMapConfig = {{ Illuminate\Support\Js::from($mapConfig) }};</script>@endisset
 </head>
 <body data-layout="frontend">
 

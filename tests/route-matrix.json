@@ -5,7 +5,7 @@
     "view": "frontend.pages.home",
     "page": "HomePage",
     "layout": "frontend",
-    "content": "Invest in Panjakent"
+    "content": "A remarkable place."
   },
   {
     "path": "/opportunities",
@@ -13,7 +13,7 @@
     "view": "frontend.pages.opportunities",
     "page": "OpportunitiesPage",
     "layout": "frontend",
-    "content": "Investment Opportunities"
+    "content": "Ideas worth exploring."
   },
   {
     "path": "/opportunities/{id}",
@@ -21,7 +21,7 @@
     "view": "frontend.pages.project-detail",
     "page": "ProjectDetailPage",
     "layout": "frontend",
-    "content": "Eco-Lodge near Seven Lakes"
+    "content": "Seven Lakes Community Guesthouse Upgrades"
   },
   {
     "path": "/map",
@@ -29,7 +29,7 @@
     "view": "frontend.pages.investment-map",
     "page": "InvestmentMapPage",
     "layout": "frontend",
-    "content": "Interactive Investment Map"
+    "content": "Possibility, in place."
   },
   {
     "path": "/guide",
