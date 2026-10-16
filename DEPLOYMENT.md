@@ -8,36 +8,39 @@ Panj Invest runs behind the external `traefik-net` managed by
 Copy `.env.example` to `.env`, generate an application key if needed, then run:
 
 ```sh
-make hosts-local
-make build-local
-make up-local
-make migrate-local
+make hosts
+make build
+make up
+make migrate
 ```
 
 Open `http://panjinvest.test`; Vite HMR listens on port `5173`. Use
-`make logs-local`, `make shell-local`, `make test-local`, and `make down-local`
-for the remaining local workflow. `make hosts-local` idempotently adds only the
+`make logs`, `make shell`, `make test-docker`, and `make down`
+for the remaining local workflow. `make hosts` idempotently adds only the
 exact `127.0.0.1 panjinvest.test` entry when it is missing.
 
 ## Development and production
 
-Create the ignored environment files and set a real `APP_KEY` in each:
+To select a deployment environment, copy its template to `.env` and set a real
+`APP_KEY` and immutable `PANJINVEST_IMAGE` in that file:
 
 ```sh
-cp .env.development.example .env.development
-cp .env.production.example .env.production
+cp .env.development.example .env  # sets APP_ENV=development
+# or
+cp .env.production.example .env   # sets APP_ENV=production
 ```
 
-Build and publish an immutable image, then deploy that exact tag:
+Build and publish that exact tag, then deploy it. The Makefile selects
+`compose.development.yml` or `compose.production.yml` from `APP_ENV` in `.env`:
 
 ```sh
-PANJINVEST_IMAGE=registry.example/panjinvest:2026-09-16 make build-image
-PANJINVEST_IMAGE=registry.example/panjinvest:2026-09-16 make deploy-development
-PANJINVEST_IMAGE=registry.example/panjinvest:2026-09-16 make deploy-production
+make build
+docker push "$(sed -n 's/^PANJINVEST_IMAGE=//p' .env)"
+make deploy
 ```
 
-Each environment also has `up-*`, `down-*`, `logs-*`, `shell-*`, `migrate-*`,
-and `validate-*` targets. Development serves `dev.panjinvest.com`; production
-serves `panjinvest.com` and redirects `www.panjinvest.com` to the apex. The
-deployment stacks publish no app ports and retain SQLite and `storage` in named
-volumes.
+Use `make environment` to inspect the selection. The shared targets are `up`,
+`down`, `logs`, `shell`, `migrate`, and `validate`. Development serves
+`dev.panjinvest.com`; production serves `panjinvest.com` and redirects
+`www.panjinvest.com` to the apex. The deployment stacks publish no app ports
+and retain SQLite and `storage` in named volumes.

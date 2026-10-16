@@ -5,7 +5,7 @@ services:
     image: ${PANJINVEST_IMAGE:?Set PANJINVEST_IMAGE to an immutable image tag}
     container_name: panjinvest-development-app
     restart: unless-stopped
-    env_file: .env.development
+    env_file: .env
     volumes:
       - panjinvest-development-storage:/var/www/html/storage
       - panjinvest-development-database:/var/www/html/database
@@ -28,7 +28,7 @@ services:
     image: ${PANJINVEST_IMAGE:?Set PANJINVEST_IMAGE to an immutable image tag}
     container_name: panjinvest-development-queue
     restart: unless-stopped
-    env_file: .env.development
+    env_file: .env
     command: php artisan queue:work --sleep=3 --tries=3 --max-time=3600
     volumes:
       - panjinvest-development-storage:/var/www/html/storage

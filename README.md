@@ -4,7 +4,9 @@ Laravel 13 and Blade presentation portal, migrated from the original React proto
 
 ## Docker local environment
 
-The project lives at `/home/aghafforov/Projects/investinpanjakent`. The retained Docker environment uses SQLite for sessions, cache, and queues. Run `make build-local` and `make up-local`; see [Docker operations](DEPLOYMENT.md). Existing environment files and database must be retained; migration is an explicit operator action.
+The project lives at `/home/aghafforov/Projects/investinpanjakent`. The retained Docker environment uses SQLite for sessions, cache, and queues. `APP_ENV` in `.env` selects the Docker stack. With the default local environment, run `make build` and `make up`; see [Docker operations](DEPLOYMENT.md). Existing environment files and database must be retained; migration is an explicit operator action.
+
+Run `make help` to see all shortcuts. Frequently used commands are `make install`, `make assets`, `make test`, `make lint`, `make serve`, and `make vite`. Docker commands detect `APP_ENV` from `.env`; use `make environment` to confirm the selected stack. Commands accept `SERVICE`, for example `make logs SERVICE=app`; use `make exec COMMAND='php artisan route:list'` for ad-hoc container commands.
 
 ## Install and run
 

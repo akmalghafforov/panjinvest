@@ -5,7 +5,7 @@ services:
     image: ${PANJINVEST_IMAGE:?Set PANJINVEST_IMAGE to an immutable image tag}
     container_name: panjinvest-production-app
     restart: unless-stopped
-    env_file: .env.production
+    env_file: .env
     volumes:
       - panjinvest-production-storage:/var/www/html/storage
       - panjinvest-production-database:/var/www/html/database
