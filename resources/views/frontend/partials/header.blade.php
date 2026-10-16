@@ -1,6 +1,6 @@
 <header class="site-header" x-data="{open:false,search:false}" @keydown.escape.window="if(open||search){open=false;search=false;$refs.menu.focus()}">
 <div class="shell nav-row">
-<a class="brand" href="/" aria-label="Invest Panjakent home"><span class="brand-mark">IP</span><span>Invest Panjakent<small>Republic of Tajikistan</small></span></a>
+<a class="brand" href="/" aria-label="Invest Panjakent home"><span>Invest Panjakent<small>Republic of Tajikistan</small></span></a>
 <button class="menu-toggle" x-ref="menu" @click="open=!open" :aria-expanded="open" aria-controls="main-navigation"><x-public-icon name="Menu"/><span>Menu</span></button>
 <nav id="main-navigation" :class="{'is-open':open}" aria-label="Main navigation">
 @foreach(['/#why-panjakent'=>'Why Panjakent','/opportunities'=>'Opportunities','/map'=>'Investment Map','/guide'=>'Investor Guide','/news'=>'News'] as $href=>$label)
