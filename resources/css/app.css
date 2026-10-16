@@ -1,0 +1,17 @@
+@import './fonts.css';
+@import 'tailwindcss' source(none);
+@source '../views/**/*.blade.php';
+@source '../js/**/*.js';
+@source '../fixtures/*.json';
+@source './utility-candidates.txt';
+@import 'tw-animate-css';
+@import './theme.css';
+[x-cloak]{display:none!important}
+button,a,select,input[type=checkbox]{cursor:pointer}
+
+/* Alpine templates do not create visual siblings for Tailwind stack spacing. */
+@layer utilities {
+  :is(.space-y-1,.space-y-2,.space-y-3,.space-y-4,.space-y-6,.space-y-8) > :not(template):not(:has(~ :not(template))) {
+    margin-block-end: 0;
+  }
+}

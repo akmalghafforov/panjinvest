@@ -1,0 +1,4 @@
+<div x-data="{{ $scope }}" :class="cn(&quot;text-center py-12 px-4&quot;, className)">
+<div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-100 mb-4"><svg class="h-8 w-8 text-gray-400" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use :href="'#icon-' + (Icon)"></use></svg></div>
+<h3 class="text-lg font-semibold text-[#1F2933] mb-2"><span x-text="title"></span></h3><p class="text-[#667085] mb-6 max-w-md mx-auto"><span x-text="description"></span></p>
+<template x-if="Boolean(actionLabel &amp;&amp; onAction)"><x-button type="button" x-on:click="(onAction)($event)" class="bg-primary text-primary-foreground hover:bg-primary/90 h-9 px-4 py-2 has-[>svg]:px-3"><span x-text="actionLabel"></span></x-button></template></div>

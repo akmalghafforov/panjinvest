@@ -1,0 +1,210 @@
+[
+  {
+    "path": "/",
+    "name": "frontend.home",
+    "view": "frontend.pages.home",
+    "page": "HomePage",
+    "layout": "frontend",
+    "content": "Invest in Panjakent"
+  },
+  {
+    "path": "/opportunities",
+    "name": "frontend.opportunities",
+    "view": "frontend.pages.opportunities",
+    "page": "OpportunitiesPage",
+    "layout": "frontend",
+    "content": "Investment Opportunities"
+  },
+  {
+    "path": "/opportunities/{id}",
+    "name": "frontend.opportunities.show",
+    "view": "frontend.pages.project-detail",
+    "page": "ProjectDetailPage",
+    "layout": "frontend",
+    "content": "Eco-Lodge near Seven Lakes"
+  },
+  {
+    "path": "/map",
+    "name": "frontend.map",
+    "view": "frontend.pages.investment-map",
+    "page": "InvestmentMapPage",
+    "layout": "frontend",
+    "content": "Interactive Investment Map"
+  },
+  {
+    "path": "/guide",
+    "name": "frontend.guide",
+    "view": "frontend.pages.investor-guide",
+    "page": "InvestorGuidePage",
+    "layout": "frontend",
+    "content": "Investor Guide"
+  },
+  {
+    "path": "/data",
+    "name": "frontend.data",
+    "view": "frontend.pages.data-statistics",
+    "page": "DataStatisticsPage",
+    "layout": "frontend",
+    "content": "Data & Statistics"
+  },
+  {
+    "path": "/documents",
+    "name": "frontend.documents",
+    "view": "frontend.pages.documents",
+    "page": "DocumentsPage",
+    "layout": "frontend",
+    "content": "Documents & Downloads"
+  },
+  {
+    "path": "/contact",
+    "name": "frontend.contact",
+    "view": "frontend.pages.contact",
+    "page": "ContactPage",
+    "layout": "frontend",
+    "content": "Contact Us"
+  },
+  {
+    "path": "/submit-interest",
+    "name": "frontend.submit-interest",
+    "view": "frontend.pages.submit-interest",
+    "page": "SubmitInterestPage",
+    "layout": "frontend",
+    "content": "Submit Investment Interest"
+  },
+  {
+    "path": "/submit-interest/success",
+    "name": "frontend.submit-interest.success",
+    "view": "frontend.pages.submit-interest-success",
+    "page": "SubmitInterestSuccessPage",
+    "layout": "frontend",
+    "content": "Thank You for Your Interest!"
+  },
+  {
+    "path": "/portal",
+    "name": "frontend.portal",
+    "view": "frontend.pages.improved-investor-portal",
+    "page": "ImprovedInvestorPortalPage",
+    "layout": "frontend",
+    "content": "Investor Portal"
+  },
+  {
+    "path": "/portal/applications/{id}",
+    "name": "frontend.portal.applications.show",
+    "view": "frontend.pages.application-detail",
+    "page": "ApplicationDetailPage",
+    "layout": "frontend",
+    "content": "Application Details"
+  },
+  {
+    "path": "/admin",
+    "name": "backend.dashboard",
+    "view": "backend.pages.improved-admin-dashboard",
+    "page": "ImprovedAdminDashboardPage",
+    "layout": "backend",
+    "content": "Dashboard"
+  },
+  {
+    "path": "/admin/projects",
+    "name": "backend.projects",
+    "view": "backend.pages.admin-projects",
+    "page": "AdminProjectsPage",
+    "layout": "backend",
+    "content": "Investment Projects"
+  },
+  {
+    "path": "/admin/crm",
+    "name": "backend.crm",
+    "view": "backend.pages.improved-investor-crm",
+    "page": "ImprovedInvestorCRMPage",
+    "layout": "backend",
+    "content": "Investor CRM"
+  },
+  {
+    "path": "/admin/applications",
+    "name": "backend.applications",
+    "view": "backend.pages.admin-applications",
+    "page": "AdminApplicationsPage",
+    "layout": "backend",
+    "content": "Applications"
+  },
+  {
+    "path": "/admin/applications/{id}",
+    "name": "backend.applications.show",
+    "view": "backend.pages.improved-application-review",
+    "page": "ImprovedApplicationReviewPage",
+    "layout": "backend",
+    "content": "Application Review"
+  },
+  {
+    "path": "/admin/map",
+    "name": "backend.map",
+    "view": "backend.pages.admin-map",
+    "page": "AdminMapPage",
+    "layout": "backend",
+    "content": "Map Objects & Land Plots"
+  },
+  {
+    "path": "/admin/documents",
+    "name": "backend.documents",
+    "view": "backend.pages.admin-documents",
+    "page": "AdminDocumentsPage",
+    "layout": "backend",
+    "content": "Documents"
+  },
+  {
+    "path": "/admin/statistics",
+    "name": "backend.statistics",
+    "view": "backend.pages.admin-statistics",
+    "page": "AdminStatisticsPage",
+    "layout": "backend",
+    "content": "Statistics & Analytics"
+  },
+  {
+    "path": "/admin/news",
+    "name": "backend.news",
+    "view": "backend.pages.admin-news",
+    "page": "AdminNewsPage",
+    "layout": "backend",
+    "content": "News and Events"
+  },
+  {
+    "path": "/admin/cms",
+    "name": "backend.cms",
+    "view": "backend.pages.admin-cms",
+    "page": "AdminCMSPage",
+    "layout": "backend",
+    "content": "Pages / CMS"
+  },
+  {
+    "path": "/admin/languages",
+    "name": "backend.languages",
+    "view": "backend.pages.admin-languages",
+    "page": "AdminLanguagesPage",
+    "layout": "backend",
+    "content": "Languages"
+  },
+  {
+    "path": "/admin/users",
+    "name": "backend.users",
+    "view": "backend.pages.admin-users",
+    "page": "AdminUsersPage",
+    "layout": "backend",
+    "content": "Users and Roles"
+  },
+  {
+    "path": "/admin/activity",
+    "name": "backend.activity",
+    "view": "backend.pages.admin-activity",
+    "page": "AdminActivityPage",
+    "layout": "backend",
+    "content": "Activity Log"
+  },
+  {
+    "path": "/admin/settings",
+    "name": "backend.settings",
+    "view": "backend.pages.admin-settings",
+    "page": "AdminSettingsPage",
+    "layout": "backend",
+    "content": "Settings"
+  }
+]

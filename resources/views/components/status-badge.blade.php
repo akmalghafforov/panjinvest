@@ -1,0 +1,2 @@
+<span x-data="{{ $scope }}" :class="cn(baseStyle, badgeStyle, className)">
+<template x-if="Boolean(status &amp;&amp; (variant === &quot;status&quot; || variant === &quot;document&quot; || variant === &quot;application&quot;))"><span class="w-1.5 h-1.5 rounded-full bg-current"></span></template><span x-text="label"></span></span>

@@ -1,0 +1,62 @@
+name: panjinvest-production
+
+services:
+  app:
+    image: ${PANJINVEST_IMAGE:?Set PANJINVEST_IMAGE to an immutable image tag}
+    container_name: panjinvest-production-app
+    restart: unless-stopped
+    env_file: .env.production
+    volumes:
+      - panjinvest-production-storage:/var/www/html/storage
+      - panjinvest-production-database:/var/www/html/database
+    networks:
+      - panjinvest-production
+      - traefik-net
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=traefik-net
+      - traefik.http.routers.panjinvest-production.rule=Host(`panjinvest.com`)
+      - traefik.http.routers.panjinvest-production.entrypoints=web
+      - traefik.http.routers.panjinvest-production.middlewares=https-redirect@file
+      - traefik.http.routers.panjinvest-production-secure.rule=Host(`panjinvest.com`)
+      - traefik.http.routers.panjinvest-production-secure.entrypoints=websecure
+      - traefik.http.routers.panjinvest-production-secure.tls=true
+      - traefik.http.routers.panjinvest-production-secure.tls.certresolver=cloudflare
+      - traefik.http.routers.panjinvest-production-secure.middlewares=secureHeaders@file
+      - traefik.http.routers.panjinvest-production-www.rule=Host(`www.panjinvest.com`)
+      - traefik.http.routers.panjinvest-production-www.entrypoints=web
+      - traefik.http.routers.panjinvest-production-www.middlewares=panjinvest-production-www-redirect
+      - traefik.http.routers.panjinvest-production-www-secure.rule=Host(`www.panjinvest.com`)
+      - traefik.http.routers.panjinvest-production-www-secure.entrypoints=websecure
+      - traefik.http.routers.panjinvest-production-www-secure.tls=true
+      - traefik.http.routers.panjinvest-production-www-secure.tls.certresolver=cloudflare
+      - traefik.http.routers.panjinvest-production-www-secure.middlewares=panjinvest-production-www-redirect
+      - traefik.http.middlewares.panjinvest-production-www-redirect.redirectregex.regex=^https?://www\.panjinvest\.com/(.*)
+      - traefik.http.middlewares.panjinvest-production-www-redirect.redirectregex.replacement=https://panjinvest.com/$${1}
+      - traefik.http.middlewares.panjinvest-production-www-redirect.redirectregex.permanent=true
+      - traefik.http.services.panjinvest-production.loadbalancer.server.port=8080
+
+  queue:
+    image: ${PANJINVEST_IMAGE:?Set PANJINVEST_IMAGE to an immutable image tag}
+    container_name: panjinvest-production-queue
+    restart: unless-stopped
+    env_file: .env.production
+    command: php artisan queue:work --sleep=3 --tries=3 --max-time=3600
+    volumes:
+      - panjinvest-production-storage:/var/www/html/storage
+      - panjinvest-production-database:/var/www/html/database
+    networks:
+      - panjinvest-production
+
+networks:
+  panjinvest-production:
+    name: panjinvest-production
+  traefik-net:
+    external: true
+    name: traefik-net
+
+volumes:
+  panjinvest-production-storage:
+    name: panjinvest-production-storage
+  panjinvest-production-database:
+    name: panjinvest-production-database

@@ -1,0 +1,1 @@
+<button {{ $attributes->class(['inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 outline-none focus-visible:ring-2 [&_svg]:size-4 [&_svg]:shrink-0 shrink-0']) }}>{{ $slot }}</button>

@@ -1,0 +1,2477 @@
+{
+  "HomePage": {
+    "stats": [
+      {
+        "label": "Population",
+        "value": "280,000+",
+        "icon": "Users"
+      },
+      {
+        "label": "Priority Sectors",
+        "value": "7",
+        "icon": "Building2"
+      },
+      {
+        "label": "Available Projects",
+        "value": "24",
+        "icon": "Briefcase"
+      },
+      {
+        "label": "Investor Support",
+        "value": "24/7",
+        "icon": "HeadphonesIcon"
+      },
+      {
+        "label": "Strategic Location",
+        "value": "Central Asia",
+        "icon": "MapPin"
+      }
+    ],
+    "advantages": [
+      {
+        "icon": "Globe",
+        "title": "Strategic Location",
+        "description": "Gateway to Central Asian markets with access to regional trade routes"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Growing Economy",
+        "description": "Stable economic growth with government support for foreign investment"
+      },
+      {
+        "icon": "Shield",
+        "title": "Investment Protection",
+        "description": "Legal framework protecting investor rights and property"
+      },
+      {
+        "icon": "Zap",
+        "title": "Quick Registration",
+        "description": "Streamlined business registration process within 7 days"
+      },
+      {
+        "icon": "Award",
+        "title": "Tax Incentives",
+        "description": "Special tax benefits for priority sectors and foreign investors"
+      },
+      {
+        "icon": "Leaf",
+        "title": "Natural Resources",
+        "description": "Rich agricultural land, water resources, and renewable energy potential"
+      }
+    ],
+    "sectors": [
+      {
+        "icon": "Globe",
+        "name": "Tourism",
+        "description": "Seven Lakes, Ancient Sogdian sites, eco-tourism opportunities",
+        "color": "bg-blue-500"
+      },
+      {
+        "icon": "Leaf",
+        "name": "Agriculture",
+        "description": "Fruits, vegetables, beekeeping, organic farming",
+        "color": "bg-green-500"
+      },
+      {
+        "icon": "Utensils",
+        "name": "Food Processing",
+        "description": "Fruit drying, dairy, honey packaging, organic products",
+        "color": "bg-orange-500"
+      },
+      {
+        "icon": "Truck",
+        "name": "Logistics",
+        "description": "Warehousing, cold storage, regional distribution",
+        "color": "bg-purple-500"
+      },
+      {
+        "icon": "Lightbulb",
+        "name": "Handicrafts",
+        "description": "Traditional textiles, ceramics, souvenirs",
+        "color": "bg-pink-500"
+      },
+      {
+        "icon": "Zap",
+        "name": "Renewable Energy",
+        "description": "Solar, small hydro, energy independence",
+        "color": "bg-yellow-500"
+      }
+    ],
+    "featuredProjects": [
+      {
+        "id": "eco-lodge-seven-lakes",
+        "title": "Eco-Lodge near Seven Lakes",
+        "sector": "Tourism",
+        "location": "Seven Lakes Region",
+        "investment": "$250,000 - $500,000",
+        "land": "2-3 hectares",
+        "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800"
+      },
+      {
+        "id": "fruit-drying-facility",
+        "title": "Modern Fruit Drying Facility",
+        "sector": "Food Processing",
+        "location": "Panjakent Industrial Zone",
+        "investment": "$150,000 - $300,000",
+        "land": "0.5 hectares",
+        "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800"
+      },
+      {
+        "id": "cold-storage-center",
+        "title": "Regional Cold Storage Center",
+        "sector": "Logistics",
+        "location": "Near Highway M34",
+        "investment": "$400,000 - $800,000",
+        "land": "1 hectare",
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800"
+      }
+    ],
+    "journeySteps": [
+      {
+        "step": 1,
+        "title": "Explore Opportunities",
+        "description": "Browse available projects and priority sectors"
+      },
+      {
+        "step": 2,
+        "title": "Submit Interest",
+        "description": "Register and express interest in specific projects"
+      },
+      {
+        "step": 3,
+        "title": "Get Support",
+        "description": "Receive guidance from investment facilitation team"
+      },
+      {
+        "step": 4,
+        "title": "Site Visit",
+        "description": "Visit location and meet with local authorities"
+      },
+      {
+        "step": 5,
+        "title": "Legal Setup",
+        "description": "Register business and obtain necessary permits"
+      },
+      {
+        "step": 6,
+        "title": "Start Operations",
+        "description": "Launch your investment with ongoing support"
+      }
+    ]
+  },
+  "OpportunitiesPage": {
+    "sectors": [
+      "All Sectors",
+      "Tourism",
+      "Agriculture",
+      "Food Processing",
+      "Logistics",
+      "Handicrafts",
+      "Renewable Energy",
+      "Light Manufacturing"
+    ],
+    "projects": [
+      {
+        "id": "eco-lodge-seven-lakes",
+        "title": "Eco-Lodge near Seven Lakes",
+        "sector": "Tourism",
+        "location": "Seven Lakes Region",
+        "investment": "$250,000 - $500,000",
+        "land": "2-3 hectares",
+        "stage": "Ready for Investment",
+        "status": "Available",
+        "roi": "18-22%",
+        "description": "Develop eco-friendly accommodation for tourists visiting the famous Seven Lakes.",
+        "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800"
+      },
+      {
+        "id": "hotel-seven-lakes",
+        "title": "Boutique Hotel near Seven Lakes",
+        "sector": "Tourism",
+        "location": "Seven Lakes Highway",
+        "investment": "$800,000 - $1,500,000",
+        "land": "5 hectares",
+        "stage": "Feasibility Complete",
+        "status": "Available",
+        "roi": "20-25%",
+        "description": "30-40 room boutique hotel with restaurant and recreational facilities.",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800"
+      },
+      {
+        "id": "fruit-drying-facility",
+        "title": "Modern Fruit Drying Facility",
+        "sector": "Food Processing",
+        "location": "Panjakent Industrial Zone",
+        "investment": "$150,000 - $300,000",
+        "land": "0.5 hectares",
+        "stage": "Land Allocated",
+        "status": "Available",
+        "roi": "25-30%",
+        "description": "Solar-powered fruit drying facility for apricots, apples, and other local produce.",
+        "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800"
+      },
+      {
+        "id": "cold-storage-center",
+        "title": "Regional Cold Storage Center",
+        "sector": "Logistics",
+        "location": "Near Highway M34",
+        "investment": "$400,000 - $800,000",
+        "land": "1 hectare",
+        "stage": "Land Allocated",
+        "status": "Available",
+        "roi": "15-20%",
+        "description": "Modern cold storage facility serving regional agricultural producers.",
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800"
+      },
+      {
+        "id": "honey-production",
+        "title": "Organic Honey Production & Packaging",
+        "sector": "Agriculture",
+        "location": "Mountain Areas",
+        "investment": "$80,000 - $150,000",
+        "land": "Flexible",
+        "stage": "Ready for Investment",
+        "status": "Available",
+        "roi": "30-35%",
+        "description": "Develop organic honey production with modern packaging for export markets.",
+        "image": "https://images.unsplash.com/photo-1587049352846-4a222e784720?w=800"
+      },
+      {
+        "id": "warehouse-trade",
+        "title": "Warehouse Near Regional Trade Route",
+        "sector": "Logistics",
+        "location": "Near Border Crossing",
+        "investment": "$300,000 - $600,000",
+        "land": "1.5 hectares",
+        "stage": "Planning Phase",
+        "status": "Available",
+        "roi": "18-22%",
+        "description": "Strategic warehouse facility for regional trade and distribution.",
+        "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?w=800"
+      },
+      {
+        "id": "export-center",
+        "title": "Local Product Export Center",
+        "sector": "Logistics",
+        "location": "Panjakent City Center",
+        "investment": "$200,000 - $400,000",
+        "land": "0.8 hectares",
+        "stage": "Feasibility Complete",
+        "status": "Available",
+        "roi": "20-24%",
+        "description": "Aggregation and export facilitation center for local handicrafts and products.",
+        "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=800"
+      },
+      {
+        "id": "solar-installations",
+        "title": "Small Solar Installations",
+        "sector": "Renewable Energy",
+        "location": "Various Locations",
+        "investment": "$100,000 - $250,000",
+        "land": "1-2 hectares",
+        "stage": "Ready for Investment",
+        "status": "Available",
+        "roi": "15-18%",
+        "description": "Develop small-scale solar power installations for local energy needs.",
+        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800"
+      },
+      {
+        "id": "handicraft-workshop",
+        "title": "Traditional Handicraft Workshop",
+        "sector": "Handicrafts",
+        "location": "Old City",
+        "investment": "$50,000 - $100,000",
+        "land": "0.2 hectares",
+        "stage": "Land Allocated",
+        "status": "Available",
+        "roi": "25-30%",
+        "description": "Workshop and training center for traditional Sogdian handicrafts and ceramics.",
+        "image": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=800"
+      }
+    ]
+  },
+  "ProjectCard": {},
+  "StatusBadge": {
+    "variantStyles": {
+      "sector": "bg-[#123A63]/10 text-[#123A63]",
+      "status": "",
+      "required": "bg-red-50 text-red-700 border border-red-200",
+      "optional": "bg-gray-50 text-gray-600 border border-gray-200",
+      "document": "",
+      "application": ""
+    },
+    "statusStyles": {
+      "new": "bg-blue-50 text-blue-700 border border-blue-200",
+      "under-review": "bg-yellow-50 text-yellow-700 border border-yellow-200",
+      "approved": "bg-green-50 text-green-700 border border-green-200",
+      "rejected": "bg-red-50 text-red-700 border border-red-200",
+      "pending": "bg-orange-50 text-orange-700 border border-orange-200",
+      "active": "bg-[#0F8A5F]/10 text-[#0F8A5F] border border-[#0F8A5F]/20",
+      "completed": "bg-green-50 text-green-700 border border-green-200",
+      "submitted": "bg-blue-50 text-blue-700 border border-blue-200",
+      "contacted": "bg-purple-50 text-purple-700 border border-purple-200",
+      "negotiation": "bg-indigo-50 text-indigo-700 border border-indigo-200",
+      "documents-pending": "bg-orange-50 text-orange-700 border border-orange-200",
+      "meeting-scheduled": "bg-cyan-50 text-cyan-700 border border-cyan-200",
+      "not-uploaded": "bg-gray-50 text-gray-600 border border-gray-200",
+      "uploaded": "bg-blue-50 text-blue-700 border border-blue-200",
+      "verified": "bg-green-50 text-green-700 border border-green-200",
+      "needs-correction": "bg-red-50 text-red-700 border border-red-200"
+    },
+    "baseStyle": "px-3 py-1 text-xs rounded-full inline-flex items-center gap-1.5"
+  },
+  "EmptyState": {},
+  "ProjectDetailPage": {
+    "project": {
+      "id": "eco-lodge-seven-lakes",
+      "title": "Eco-Lodge near Seven Lakes",
+      "sector": "Tourism",
+      "location": "Seven Lakes Region, 45km from Panjakent",
+      "investment": "$250,000 - $500,000",
+      "land": "2-3 hectares",
+      "stage": "Ready for Investment",
+      "status": "Available",
+      "roi": "18-22%",
+      "timeline": "18-24 months",
+      "description": "Develop an eco-friendly accommodation facility to serve the growing number of tourists visiting the famous Seven Lakes (Haft Kul). This project offers an opportunity to create sustainable tourism infrastructure in one of Tajikistan's most visited natural attractions.",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200",
+      "department": "Tourism Development Department",
+      "contact": {
+        "name": "Farrukh Mahmadov",
+        "position": "Investment Coordinator",
+        "phone": "+992 3422 5-11-22",
+        "email": "f.mahmadov@panjakent.tj"
+      },
+      "infrastructure": [
+        {
+          "name": "Road Access",
+          "available": true
+        },
+        {
+          "name": "Electricity",
+          "available": true
+        },
+        {
+          "name": "Water Supply",
+          "available": true
+        },
+        {
+          "name": "Internet Connectivity",
+          "available": false
+        },
+        {
+          "name": "Waste Management",
+          "available": false
+        },
+        {
+          "name": "Mobile Coverage",
+          "available": true
+        }
+      ],
+      "financials": [
+        {
+          "label": "Minimum Investment",
+          "value": "$250,000"
+        },
+        {
+          "label": "Maximum Investment",
+          "value": "$500,000"
+        },
+        {
+          "label": "Expected ROI",
+          "value": "18-22% annually"
+        },
+        {
+          "label": "Payback Period",
+          "value": "5-7 years"
+        },
+        {
+          "label": "Land Lease Cost",
+          "value": "$2,000/year"
+        },
+        {
+          "label": "Property Tax",
+          "value": "0.5% of value"
+        }
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+        "https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?w=800",
+        "https://images.unsplash.com/photo-1542401886-65d6c61db217?w=800"
+      ]
+    },
+    "similarProjects": [
+      {
+        "id": "hotel-seven-lakes",
+        "title": "Boutique Hotel near Seven Lakes",
+        "sector": "Tourism",
+        "investment": "$800,000 - $1,500,000",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400"
+      },
+      {
+        "id": "fruit-drying-facility",
+        "title": "Modern Fruit Drying Facility",
+        "sector": "Food Processing",
+        "investment": "$150,000 - $300,000",
+        "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=400"
+      }
+    ]
+  },
+  "InvestmentMapPage": {
+    "sectors": [
+      {
+        "name": "Tourism",
+        "value": "tourism",
+        "icon": "Building2",
+        "color": "#3B82F6"
+      },
+      {
+        "name": "Agriculture",
+        "value": "agriculture",
+        "icon": "Leaf",
+        "color": "#10B981"
+      },
+      {
+        "name": "Food Processing",
+        "value": "food",
+        "icon": "Utensils",
+        "color": "#F59E0B"
+      },
+      {
+        "name": "Logistics",
+        "value": "logistics",
+        "icon": "Truck",
+        "color": "#8B5CF6"
+      },
+      {
+        "name": "Handicrafts",
+        "value": "handicrafts",
+        "icon": "Lightbulb",
+        "color": "#EC4899"
+      },
+      {
+        "name": "Renewable Energy",
+        "value": "energy",
+        "icon": "Zap",
+        "color": "#EAB308"
+      }
+    ],
+    "infrastructure": [
+      {
+        "name": "Electricity",
+        "value": "electricity",
+        "icon": "Power"
+      },
+      {
+        "name": "Water",
+        "value": "water",
+        "icon": "Droplet"
+      },
+      {
+        "name": "Internet",
+        "value": "internet",
+        "icon": "Wifi"
+      },
+      {
+        "name": "Road Access",
+        "value": "road",
+        "icon": "Navigation"
+      }
+    ],
+    "statusOptions": [
+      {
+        "name": "Available",
+        "value": "available"
+      },
+      {
+        "name": "Under Review",
+        "value": "review"
+      },
+      {
+        "name": "Reserved",
+        "value": "reserved"
+      }
+    ],
+    "landTypes": [
+      {
+        "name": "Agricultural",
+        "value": "agricultural"
+      },
+      {
+        "name": "Commercial",
+        "value": "commercial"
+      },
+      {
+        "name": "Industrial",
+        "value": "industrial"
+      },
+      {
+        "name": "Residential",
+        "value": "residential"
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "title": "Eco-Lodge near Seven Lakes",
+        "sector": "tourism",
+        "location": "Seven Lakes Region",
+        "investment": "$250,000 - $500,000",
+        "land": "2-3 hectares",
+        "distance": "45 km from city center",
+        "status": "available",
+        "infrastructure": [
+          "electricity",
+          "water",
+          "road"
+        ],
+        "landType": "commercial",
+        "position": {
+          "top": "25%",
+          "left": "60%"
+        },
+        "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=400"
+      },
+      {
+        "id": 2,
+        "title": "Fruit Drying Facility",
+        "sector": "food",
+        "location": "Industrial Zone",
+        "investment": "$150,000 - $300,000",
+        "land": "0.5 hectares",
+        "distance": "8 km from city center",
+        "status": "available",
+        "infrastructure": [
+          "electricity",
+          "water",
+          "road",
+          "internet"
+        ],
+        "landType": "industrial",
+        "position": {
+          "top": "50%",
+          "left": "45%"
+        },
+        "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=400"
+      },
+      {
+        "id": 3,
+        "title": "Cold Storage Center",
+        "sector": "logistics",
+        "location": "Highway M34",
+        "investment": "$400,000 - $800,000",
+        "land": "1 hectare",
+        "distance": "12 km from city center",
+        "status": "available",
+        "infrastructure": [
+          "electricity",
+          "water",
+          "road"
+        ],
+        "landType": "industrial",
+        "position": {
+          "top": "60%",
+          "left": "70%"
+        },
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400"
+      },
+      {
+        "id": 4,
+        "title": "Organic Honey Production",
+        "sector": "agriculture",
+        "location": "Mountain Areas",
+        "investment": "$80,000 - $150,000",
+        "land": "Flexible",
+        "distance": "28 km from city center",
+        "status": "available",
+        "infrastructure": [
+          "electricity",
+          "road"
+        ],
+        "landType": "agricultural",
+        "position": {
+          "top": "30%",
+          "left": "40%"
+        },
+        "image": "https://images.unsplash.com/photo-1587049352846-4a222e784720?w=400"
+      },
+      {
+        "id": 5,
+        "title": "Traditional Handicraft Workshop",
+        "sector": "handicrafts",
+        "location": "Old City",
+        "investment": "$50,000 - $100,000",
+        "land": "0.2 hectares",
+        "distance": "2 km from city center",
+        "status": "review",
+        "infrastructure": [
+          "electricity",
+          "water",
+          "internet",
+          "road"
+        ],
+        "landType": "commercial",
+        "position": {
+          "top": "50%",
+          "left": "50%"
+        },
+        "image": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=400"
+      },
+      {
+        "id": 6,
+        "title": "Solar Installation",
+        "sector": "energy",
+        "location": "South Region",
+        "investment": "$100,000 - $250,000",
+        "land": "1-2 hectares",
+        "distance": "18 km from city center",
+        "status": "available",
+        "infrastructure": [
+          "road"
+        ],
+        "landType": "industrial",
+        "position": {
+          "top": "70%",
+          "left": "55%"
+        },
+        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400"
+      }
+    ]
+  },
+  "InvestorGuidePage": {
+    "tableOfContents": [
+      {
+        "id": "how-to-invest",
+        "title": "How to Invest",
+        "icon": "TrendingUp"
+      },
+      {
+        "id": "registration",
+        "title": "Business Registration",
+        "icon": "Building2"
+      },
+      {
+        "id": "land",
+        "title": "Land Allocation",
+        "icon": "Landmark"
+      },
+      {
+        "id": "permits",
+        "title": "Permits and Licenses",
+        "icon": "FileCheck"
+      },
+      {
+        "id": "taxes",
+        "title": "Taxes and Incentives",
+        "icon": "DollarSign"
+      },
+      {
+        "id": "labor",
+        "title": "Labor Market",
+        "icon": "Users"
+      },
+      {
+        "id": "banking",
+        "title": "Banking and Finance",
+        "icon": "Briefcase"
+      },
+      {
+        "id": "legal",
+        "title": "Legal Protection",
+        "icon": "Gavel"
+      },
+      {
+        "id": "faq",
+        "title": "FAQ",
+        "icon": "HelpCircle"
+      }
+    ],
+    "investmentSteps": [
+      {
+        "number": 1,
+        "title": "Choose Opportunity",
+        "description": "Browse our catalog of pre-vetted investment projects across priority sectors.",
+        "duration": "1-3 days"
+      },
+      {
+        "number": 2,
+        "title": "Submit Interest",
+        "description": "Complete the online expression of interest form with your preliminary investment concept.",
+        "duration": "1 day"
+      },
+      {
+        "number": 3,
+        "title": "Initial Consultation",
+        "description": "Meet with our investment facilitation team to discuss your project and requirements.",
+        "duration": "3-5 days"
+      },
+      {
+        "number": 4,
+        "title": "Prepare Documents",
+        "description": "Gather required documentation including business plan, financial statements, and identity documents.",
+        "duration": "1-2 weeks"
+      },
+      {
+        "number": 5,
+        "title": "Review and Verification",
+        "description": "Government team reviews your application and verifies all submitted documentation.",
+        "duration": "2-3 weeks"
+      },
+      {
+        "number": 6,
+        "title": "Agreement",
+        "description": "Sign investment agreement and land lease or purchase contract.",
+        "duration": "1 week"
+      },
+      {
+        "number": 7,
+        "title": "Registration and Permits",
+        "description": "Complete business registration and obtain necessary operating permits and licenses.",
+        "duration": "1-2 weeks"
+      },
+      {
+        "number": 8,
+        "title": "Launch and Aftercare Support",
+        "description": "Begin operations with ongoing support from our investment facilitation team.",
+        "duration": "Ongoing"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can foreign investors own land in Tajikistan?",
+        "answer": "Foreign investors can lease land for up to 50 years with the option to renew. While land ownership is restricted, long-term leases provide security and can be transferred or used as collateral."
+      },
+      {
+        "question": "What is the minimum investment amount?",
+        "answer": "There is no official minimum investment amount. Projects range from $50,000 for small-scale operations to over $1 million for larger developments. We welcome investors across all scales."
+      },
+      {
+        "question": "How long does business registration take?",
+        "answer": "The streamlined registration process typically takes 7-10 business days from submission of complete documentation to receiving your business certificate."
+      },
+      {
+        "question": "Are there restrictions on profit repatriation?",
+        "answer": "Foreign investors have the right to repatriate profits, dividends, and proceeds from the sale of assets after fulfilling tax obligations. All transfers must comply with currency regulations."
+      },
+      {
+        "question": "What tax incentives are available?",
+        "answer": "Priority sectors including tourism, agriculture, and food processing receive reduced corporate tax rates (ranging from 0-13%), VAT exemptions on imported equipment, and property tax holidays for up to 3 years."
+      },
+      {
+        "question": "Do I need a local partner?",
+        "answer": "No, 100% foreign ownership is permitted in most sectors. However, some investors choose to partner with local businesses for market knowledge and operational support."
+      }
+    ]
+  },
+  "DataStatisticsPage": {
+    "dataBlocks": [
+      {
+        "label": "Population",
+        "value": "280,000",
+        "change": "+2.1% YoY",
+        "icon": "Users",
+        "color": "bg-blue-500"
+      },
+      {
+        "label": "Workforce",
+        "value": "110,000",
+        "change": "39% of population",
+        "icon": "Briefcase",
+        "color": "bg-green-500"
+      },
+      {
+        "label": "Average Salary",
+        "value": "$250/month",
+        "change": "+8% YoY",
+        "icon": "DollarSign",
+        "color": "bg-purple-500"
+      },
+      {
+        "label": "Tourism Visitors",
+        "value": "85,000",
+        "change": "+28% YoY",
+        "icon": "Plane",
+        "color": "bg-orange-500"
+      },
+      {
+        "label": "Agriculture Production",
+        "value": "$45M",
+        "change": "+12% YoY",
+        "icon": "Wheat",
+        "color": "bg-emerald-500"
+      },
+      {
+        "label": "Available Land",
+        "value": "1,200 ha",
+        "change": "For investment",
+        "icon": "MapPin",
+        "color": "bg-pink-500"
+      },
+      {
+        "label": "Active Businesses",
+        "value": "8,500+",
+        "change": "+12% YoY",
+        "icon": "Building2",
+        "color": "bg-indigo-500"
+      },
+      {
+        "label": "Export Products",
+        "value": "$28M",
+        "change": "+18% YoY",
+        "icon": "Globe",
+        "color": "bg-cyan-500"
+      },
+      {
+        "label": "Infrastructure Coverage",
+        "value": "92%",
+        "change": "Electricity access",
+        "icon": "Zap",
+        "color": "bg-yellow-500"
+      }
+    ],
+    "economicData": [
+      {
+        "year": "2020",
+        "gdp": 95,
+        "investment": 12,
+        "exports": 18
+      },
+      {
+        "year": "2021",
+        "gdp": 105,
+        "investment": 15,
+        "exports": 20
+      },
+      {
+        "year": "2022",
+        "gdp": 110,
+        "investment": 18,
+        "exports": 22
+      },
+      {
+        "year": "2023",
+        "gdp": 115,
+        "investment": 22,
+        "exports": 24
+      },
+      {
+        "year": "2024",
+        "gdp": 118,
+        "investment": 25,
+        "exports": 26
+      },
+      {
+        "year": "2025",
+        "gdp": 120,
+        "investment": 28,
+        "exports": 28
+      }
+    ],
+    "sectorData": [
+      {
+        "name": "Tourism",
+        "value": 35,
+        "color": "#3B82F6"
+      },
+      {
+        "name": "Agriculture",
+        "value": 28,
+        "color": "#10B981"
+      },
+      {
+        "name": "Food Processing",
+        "value": 18,
+        "color": "#F59E0B"
+      },
+      {
+        "name": "Logistics",
+        "value": 12,
+        "color": "#8B5CF6"
+      },
+      {
+        "name": "Other",
+        "value": 7,
+        "color": "#6B7280"
+      }
+    ],
+    "monthlyVisitors": [
+      {
+        "month": "Jan",
+        "visitors": 3200
+      },
+      {
+        "month": "Feb",
+        "visitors": 2800
+      },
+      {
+        "month": "Mar",
+        "visitors": 4500
+      },
+      {
+        "month": "Apr",
+        "visitors": 6200
+      },
+      {
+        "month": "May",
+        "visitors": 8100
+      },
+      {
+        "month": "Jun",
+        "visitors": 12500
+      },
+      {
+        "month": "Jul",
+        "visitors": 15800
+      },
+      {
+        "month": "Aug",
+        "visitors": 14200
+      },
+      {
+        "month": "Sep",
+        "visitors": 10500
+      },
+      {
+        "month": "Oct",
+        "visitors": 7200
+      },
+      {
+        "month": "Nov",
+        "visitors": 4800
+      },
+      {
+        "month": "Dec",
+        "visitors": 3400
+      }
+    ]
+  },
+  "DocumentsPage": {
+    "categories": [
+      "All Documents",
+      "Investor Guides",
+      "Legal Framework",
+      "Tax & Incentives",
+      "Templates & Forms",
+      "Sector Reports",
+      "Statistics"
+    ],
+    "documents": [
+      {
+        "title": "Complete Investor Guide 2026",
+        "category": "Investor Guides",
+        "description": "Comprehensive guide covering all aspects of investing in Panjakent",
+        "size": "2.4 MB",
+        "pages": "48 pages",
+        "date": "January 2026",
+        "type": "PDF",
+        "language": "EN / RU / TJ"
+      },
+      {
+        "title": "Investment Opportunities Booklet",
+        "category": "Investor Guides",
+        "description": "Glossy overview of key investment projects with photos and contact information",
+        "size": "5.2 MB",
+        "pages": "32 pages",
+        "date": "January 2026",
+        "type": "PDF",
+        "language": "EN / RU"
+      },
+      {
+        "title": "Panjakent Economic Profile",
+        "category": "Statistics",
+        "description": "Detailed economic and demographic data for the Panjakent region",
+        "size": "3.1 MB",
+        "pages": "56 pages",
+        "date": "December 2025",
+        "type": "PDF",
+        "language": "EN / RU"
+      },
+      {
+        "title": "Land Plot Catalog",
+        "category": "Templates & Forms",
+        "description": "Available land plots with maps, sizes, and lease rates",
+        "size": "4.8 MB",
+        "pages": "24 pages",
+        "date": "January 2026",
+        "type": "PDF",
+        "language": "EN / RU"
+      },
+      {
+        "title": "Tourism Investment Brief",
+        "category": "Sector Reports",
+        "description": "Opportunities and market analysis for tourism sector investments",
+        "size": "2.8 MB",
+        "pages": "42 pages",
+        "date": "November 2025",
+        "type": "PDF",
+        "language": "EN / RU"
+      },
+      {
+        "title": "Agriculture Investment Brief",
+        "category": "Sector Reports",
+        "description": "Guide to agricultural investment opportunities and support programs",
+        "size": "2.6 MB",
+        "pages": "38 pages",
+        "date": "November 2025",
+        "type": "PDF",
+        "language": "EN / RU"
+      },
+      {
+        "title": "Legal and Tax Guide",
+        "category": "Legal Framework",
+        "description": "Overview of legal framework, tax rates, and incentive programs",
+        "size": "1.8 MB",
+        "pages": "32 pages",
+        "date": "December 2025",
+        "type": "PDF",
+        "language": "EN / RU / TJ"
+      },
+      {
+        "title": "Application Forms Package",
+        "category": "Templates & Forms",
+        "description": "All required forms for investment applications and permits",
+        "size": "890 KB",
+        "pages": "12 pages",
+        "date": "January 2026",
+        "type": "PDF / Word",
+        "language": "EN / RU / TJ"
+      }
+    ]
+  },
+  "ContactPage": {},
+  "SubmitInterestPage": {
+    "steps": [
+      {
+        "number": 1,
+        "title": "Investor Info"
+      },
+      {
+        "number": 2,
+        "title": "Investment Interest"
+      },
+      {
+        "number": 3,
+        "title": "Documents"
+      },
+      {
+        "number": 4,
+        "title": "Confirmation"
+      }
+    ],
+    "sectors": [
+      "Tourism",
+      "Agriculture",
+      "Food Processing",
+      "Logistics",
+      "Renewable Energy",
+      "Light Manufacturing",
+      "Handicrafts",
+      "Other"
+    ],
+    "investorTypes": [
+      "Individual investor",
+      "Company",
+      "Investment fund",
+      "Development organization",
+      "Local entrepreneur"
+    ],
+    "timelines": [
+      "Immediately",
+      "3–6 months",
+      "6–12 months",
+      "More than 1 year"
+    ]
+  },
+  "FormStepper": {},
+  "SubmitInterestSuccessPage": {},
+  "Timeline": {},
+  "ImprovedInvestorPortalPage": {
+    "myApplications": [
+      {
+        "id": "app-001",
+        "projectName": "Eco-Lodge near Seven Lakes",
+        "sector": "Tourism",
+        "submittedDate": "January 15, 2026",
+        "status": "under-review",
+        "assignedOfficer": "Farrukh Mahmadov",
+        "nextAction": "Initial review in progress"
+      },
+      {
+        "id": "app-002",
+        "projectName": "Fruit Drying Facility",
+        "sector": "Food Processing",
+        "submittedDate": "January 10, 2026",
+        "status": "documents-pending",
+        "assignedOfficer": "Aziza Rahimova",
+        "nextAction": "Upload company registration documents"
+      }
+    ],
+    "savedOpportunities": [
+      {
+        "id": "eco-lodge-seven-lakes",
+        "title": "Eco-Lodge near Seven Lakes",
+        "sector": "Tourism",
+        "investment": "$250,000 - $500,000"
+      },
+      {
+        "id": "cold-storage-center",
+        "title": "Regional Cold Storage Center",
+        "sector": "Logistics",
+        "investment": "$400,000 - $800,000"
+      }
+    ],
+    "upcomingMeetings": [
+      {
+        "id": "meet-001",
+        "title": "Initial Consultation - Eco-Lodge Project",
+        "date": "January 28, 2026",
+        "time": "10:00 AM",
+        "type": "Online Meeting",
+        "with": "Farrukh Mahmadov"
+      }
+    ],
+    "recentMessages": [
+      {
+        "id": "msg-001",
+        "from": "Investment Support Team",
+        "subject": "Application Received - Eco-Lodge Project",
+        "date": "January 15, 2026",
+        "read": true
+      },
+      {
+        "id": "msg-002",
+        "from": "Aziza Rahimova",
+        "subject": "Document Request - Fruit Drying Facility",
+        "date": "January 12, 2026",
+        "read": false
+      }
+    ]
+  },
+  "ApplicationCard": {},
+  "ApplicationDetailPage": {},
+  "FileUploadCard": {
+    "statusIcon": {
+      "not-uploaded": null,
+      "uploaded": "File",
+      "verified": "CheckCircle2",
+      "needs-correction": "AlertCircle"
+    }
+  },
+  "NotFoundPage": {},
+  "ImprovedAdminDashboardPage": {
+    "stats": [
+      {
+        "label": "New Interests",
+        "value": "12",
+        "icon": "FileText",
+        "color": "text-blue-600",
+        "bgColor": "bg-blue-50"
+      },
+      {
+        "label": "Under Review",
+        "value": "8",
+        "icon": "Clock",
+        "color": "text-yellow-600",
+        "bgColor": "bg-yellow-50"
+      },
+      {
+        "label": "Meetings This Week",
+        "value": "5",
+        "icon": "Calendar",
+        "color": "text-purple-600",
+        "bgColor": "bg-purple-50"
+      },
+      {
+        "label": "Pending Documents",
+        "value": "15",
+        "icon": "AlertCircle",
+        "color": "text-orange-600",
+        "bgColor": "bg-orange-50"
+      },
+      {
+        "label": "Active Investors",
+        "value": "34",
+        "icon": "Users",
+        "color": "text-[#0F8A5F]",
+        "bgColor": "bg-[#0F8A5F]/10"
+      },
+      {
+        "label": "Total Investment",
+        "value": "$12.5M",
+        "icon": "DollarSign",
+        "color": "text-[#123A63]",
+        "bgColor": "bg-[#123A63]/10"
+      }
+    ],
+    "pipeline": [
+      {
+        "stage": "New",
+        "count": 12,
+        "color": "bg-blue-500"
+      },
+      {
+        "stage": "Contacted",
+        "count": 8,
+        "color": "bg-indigo-500"
+      },
+      {
+        "stage": "Meeting Scheduled",
+        "count": 5,
+        "color": "bg-purple-500"
+      },
+      {
+        "stage": "Negotiation",
+        "count": 4,
+        "color": "bg-pink-500"
+      },
+      {
+        "stage": "Documents Pending",
+        "count": 6,
+        "color": "bg-orange-500"
+      },
+      {
+        "stage": "Approved",
+        "count": 3,
+        "color": "bg-green-500"
+      },
+      {
+        "stage": "Active",
+        "count": 7,
+        "color": "bg-emerald-500"
+      },
+      {
+        "stage": "Closed/Rejected",
+        "count": 2,
+        "color": "bg-gray-400"
+      }
+    ],
+    "recentApplications": [
+      {
+        "id": "app-001",
+        "investorName": "John Investor",
+        "country": "United States",
+        "investorType": "Company",
+        "sector": "Tourism",
+        "project": "Eco-Lodge near Seven Lakes",
+        "investmentAmount": "$250,000",
+        "status": "under-review",
+        "officer": "Farrukh Mahmadov",
+        "lastContact": "2 hours ago",
+        "nextFollowUp": "Tomorrow"
+      },
+      {
+        "id": "app-002",
+        "investorName": "Maria Santos",
+        "country": "Brazil",
+        "investorType": "Individual investor",
+        "sector": "Agriculture",
+        "project": "Organic Honey Production",
+        "investmentAmount": "$120,000",
+        "status": "documents-pending",
+        "officer": "Aziza Rahimova",
+        "lastContact": "1 day ago",
+        "nextFollowUp": "Jan 25"
+      },
+      {
+        "id": "app-003",
+        "investorName": "Ahmed Al-Rashid",
+        "country": "UAE",
+        "investorType": "Investment fund",
+        "sector": "Food Processing",
+        "project": "Fruit Drying Facility",
+        "investmentAmount": "$500,000",
+        "status": "meeting-scheduled",
+        "officer": "Rustam Nazarov",
+        "lastContact": "3 days ago",
+        "nextFollowUp": "Jan 28"
+      },
+      {
+        "id": "app-004",
+        "investorName": "Li Wei",
+        "country": "China",
+        "investorType": "Company",
+        "sector": "Logistics",
+        "project": "Cold Storage Center",
+        "investmentAmount": "$750,000",
+        "status": "new",
+        "officer": "Unassigned",
+        "lastContact": "Just now",
+        "nextFollowUp": "Pending"
+      }
+    ],
+    "upcomingMeetings": [
+      {
+        "id": "meet-001",
+        "investor": "Ahmed Al-Rashid",
+        "project": "Fruit Drying Facility",
+        "date": "Jan 28, 2026",
+        "time": "10:00 AM",
+        "type": "Online"
+      },
+      {
+        "id": "meet-002",
+        "investor": "John Investor",
+        "project": "Eco-Lodge near Seven Lakes",
+        "date": "Jan 29, 2026",
+        "time": "2:00 PM",
+        "type": "In-person"
+      }
+    ]
+  },
+  "AdminProjectsPage": {
+    "projects": [
+      {
+        "id": 1,
+        "name": "Silk Road Tourism Complex",
+        "location": "Panjakent City Center",
+        "sector": "Tourism",
+        "investment": "$5.2M",
+        "status": "active",
+        "progress": 65,
+        "startDate": "2024-03-15"
+      },
+      {
+        "id": 2,
+        "name": "Agricultural Processing Facility",
+        "location": "Rural District 3",
+        "sector": "Agriculture",
+        "investment": "$3.8M",
+        "status": "planning",
+        "progress": 25,
+        "startDate": "2024-06-01"
+      },
+      {
+        "id": 3,
+        "name": "Renewable Energy Park",
+        "location": "Mountain Region",
+        "sector": "Energy",
+        "investment": "$12.5M",
+        "status": "active",
+        "progress": 40,
+        "startDate": "2023-11-20"
+      },
+      {
+        "id": 4,
+        "name": "Textile Manufacturing Hub",
+        "location": "Industrial Zone",
+        "sector": "Manufacturing",
+        "investment": "$4.2M",
+        "status": "completed",
+        "progress": 100,
+        "startDate": "2023-01-10"
+      },
+      {
+        "id": 5,
+        "name": "Tech Innovation Center",
+        "location": "Panjakent Downtown",
+        "sector": "Technology",
+        "investment": "$2.9M",
+        "status": "active",
+        "progress": 55,
+        "startDate": "2024-02-01"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Total Projects",
+        "value": "24",
+        "icon": "Building2",
+        "color": "bg-blue-50 text-blue-600"
+      },
+      {
+        "label": "Active Projects",
+        "value": "12",
+        "icon": "TrendingUp",
+        "color": "bg-green-50 text-green-600"
+      },
+      {
+        "label": "Total Investment",
+        "value": "$42.8M",
+        "icon": "DollarSign",
+        "color": "bg-purple-50 text-purple-600"
+      },
+      {
+        "label": "New This Month",
+        "value": "3",
+        "icon": "Calendar",
+        "color": "bg-orange-50 text-orange-600"
+      }
+    ]
+  },
+  "ImprovedInvestorCRMPage": {
+    "crmStages": [
+      "All Stages",
+      "New",
+      "Contacted",
+      "Meeting Scheduled",
+      "Negotiation",
+      "Documents Pending",
+      "Approved",
+      "Active",
+      "Closed/Rejected"
+    ],
+    "sectors": [
+      "All Sectors",
+      "Tourism",
+      "Agriculture",
+      "Food Processing",
+      "Logistics",
+      "Renewable Energy",
+      "Handicrafts"
+    ],
+    "countries": [
+      "All Countries",
+      "United States",
+      "China",
+      "UAE",
+      "Russia",
+      "Iran",
+      "Turkey",
+      "Brazil"
+    ],
+    "officers": [
+      "All Officers",
+      "Farrukh Mahmadov",
+      "Aziza Rahimova",
+      "Rustam Nazarov",
+      "Unassigned"
+    ],
+    "investors": [
+      {
+        "id": "inv-001",
+        "name": "John Investor",
+        "country": "United States",
+        "company": "Global Ventures LLC",
+        "investorType": "Company",
+        "sector": "Tourism",
+        "investmentAmount": "$400,000",
+        "stage": "documents-pending",
+        "officer": "Farrukh Mahmadov",
+        "lastContact": "2 days ago",
+        "nextFollowUp": "Jan 25, 2026",
+        "email": "john@example.com",
+        "phone": "+1 555 0100"
+      },
+      {
+        "id": "inv-002",
+        "name": "Maria Santos",
+        "country": "Brazil",
+        "company": "Santos Agriculture Ltd",
+        "investorType": "Company",
+        "sector": "Agriculture",
+        "investmentAmount": "$120,000",
+        "stage": "contacted",
+        "officer": "Aziza Rahimova",
+        "lastContact": "5 days ago",
+        "nextFollowUp": "Jan 28, 2026",
+        "email": "maria@santos-ag.com",
+        "phone": "+55 11 9999-0000"
+      },
+      {
+        "id": "inv-003",
+        "name": "Ahmed Al-Rashid",
+        "country": "UAE",
+        "company": "Desert Investment Group",
+        "investorType": "Investment fund",
+        "sector": "Food Processing",
+        "investmentAmount": "$500,000",
+        "stage": "meeting-scheduled",
+        "officer": "Rustam Nazarov",
+        "lastContact": "1 day ago",
+        "nextFollowUp": "Jan 28, 2026",
+        "email": "ahmed@desertinvest.ae",
+        "phone": "+971 50 123 4567"
+      },
+      {
+        "id": "inv-004",
+        "name": "Li Wei",
+        "country": "China",
+        "company": "Silk Road Logistics",
+        "investorType": "Company",
+        "sector": "Logistics",
+        "investmentAmount": "$750,000",
+        "stage": "new",
+        "officer": "Unassigned",
+        "lastContact": "Just now",
+        "nextFollowUp": "Pending",
+        "email": "liwei@silkroadlog.cn",
+        "phone": "+86 138 0000 0000"
+      },
+      {
+        "id": "inv-005",
+        "name": "Elena Volkova",
+        "country": "Russia",
+        "company": "Volga Energy",
+        "investorType": "Company",
+        "sector": "Renewable Energy",
+        "investmentAmount": "$300,000",
+        "stage": "negotiation",
+        "officer": "Farrukh Mahmadov",
+        "lastContact": "3 days ago",
+        "nextFollowUp": "Feb 1, 2026",
+        "email": "elena@volgaenergy.ru",
+        "phone": "+7 495 123-45-67"
+      },
+      {
+        "id": "inv-006",
+        "name": "Mehmet Yilmaz",
+        "country": "Turkey",
+        "company": "Anatolian Tourism",
+        "investorType": "Company",
+        "sector": "Tourism",
+        "investmentAmount": "$600,000",
+        "stage": "approved",
+        "officer": "Aziza Rahimova",
+        "lastContact": "1 week ago",
+        "nextFollowUp": "Feb 5, 2026",
+        "email": "mehmet@anatoliantour.tr",
+        "phone": "+90 212 555-0100"
+      }
+    ]
+  },
+  "AdminApplicationsPage": {
+    "applications": [
+      {
+        "id": "APP-2024-001",
+        "applicantName": "Green Valley Investments LLC",
+        "projectName": "Solar Farm Development",
+        "submittedDate": "2024-05-20",
+        "sector": "Energy",
+        "requestedAmount": "$8.5M",
+        "status": "under_review",
+        "assignedTo": "Sarah Johnson"
+      },
+      {
+        "id": "APP-2024-002",
+        "applicantName": "Mountain Resort Group",
+        "projectName": "Eco-Tourism Resort",
+        "submittedDate": "2024-05-18",
+        "sector": "Tourism",
+        "requestedAmount": "$4.2M",
+        "status": "pending",
+        "assignedTo": "Michael Chen"
+      },
+      {
+        "id": "APP-2024-003",
+        "applicantName": "AgriTech Solutions",
+        "projectName": "Smart Greenhouse Complex",
+        "submittedDate": "2024-05-15",
+        "sector": "Agriculture",
+        "requestedAmount": "$2.8M",
+        "status": "approved",
+        "assignedTo": "Sarah Johnson"
+      },
+      {
+        "id": "APP-2024-004",
+        "applicantName": "Digital Hub Ventures",
+        "projectName": "Tech Incubator Center",
+        "submittedDate": "2024-05-12",
+        "sector": "Technology",
+        "requestedAmount": "$3.5M",
+        "status": "under_review",
+        "assignedTo": "David Park"
+      },
+      {
+        "id": "APP-2024-005",
+        "applicantName": "Heritage Crafts Co.",
+        "projectName": "Textile Manufacturing",
+        "submittedDate": "2024-05-10",
+        "sector": "Manufacturing",
+        "requestedAmount": "$1.9M",
+        "status": "pending",
+        "assignedTo": "Michael Chen"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Total Applications",
+        "value": "47",
+        "color": "bg-blue-50 text-blue-600"
+      },
+      {
+        "label": "Pending Review",
+        "value": "12",
+        "color": "bg-yellow-50 text-yellow-600"
+      },
+      {
+        "label": "Under Review",
+        "value": "8",
+        "color": "bg-purple-50 text-purple-600"
+      },
+      {
+        "label": "Approved",
+        "value": "18",
+        "color": "bg-green-50 text-green-600"
+      }
+    ]
+  },
+  "ImprovedApplicationReviewPage": {},
+  "AdminMapPage": {
+    "landPlots": [
+      {
+        "id": "PLOT-001",
+        "name": "Industrial Zone A",
+        "area": "45.2 hectares",
+        "location": "North District",
+        "zoning": "Industrial",
+        "status": "available",
+        "price": "$2.5M"
+      },
+      {
+        "id": "PLOT-002",
+        "name": "Tourism Development Area",
+        "area": "28.5 hectares",
+        "location": "City Center",
+        "zoning": "Commercial/Tourism",
+        "status": "reserved",
+        "price": "$4.2M"
+      },
+      {
+        "id": "PLOT-003",
+        "name": "Agricultural Land Block C",
+        "area": "120 hectares",
+        "location": "Rural District 2",
+        "zoning": "Agricultural",
+        "status": "available",
+        "price": "$1.8M"
+      },
+      {
+        "id": "PLOT-004",
+        "name": "Tech Park Zone",
+        "area": "35 hectares",
+        "location": "South District",
+        "zoning": "Technology/Office",
+        "status": "occupied",
+        "price": "$3.5M"
+      },
+      {
+        "id": "PLOT-005",
+        "name": "Renewable Energy Site",
+        "area": "85 hectares",
+        "location": "Mountain Region",
+        "zoning": "Energy/Industrial",
+        "status": "available",
+        "price": "$2.1M"
+      }
+    ],
+    "categories": [
+      {
+        "id": "all",
+        "label": "All Plots",
+        "count": 24
+      },
+      {
+        "id": "available",
+        "label": "Available",
+        "count": 12
+      },
+      {
+        "id": "reserved",
+        "label": "Reserved",
+        "count": 6
+      },
+      {
+        "id": "occupied",
+        "label": "Occupied",
+        "count": 6
+      }
+    ]
+  },
+  "AdminDocumentsPage": {
+    "documents": [
+      {
+        "id": 1,
+        "name": "Investment Policy Framework 2024",
+        "type": "Policy Document",
+        "category": "Policies",
+        "size": "2.4 MB",
+        "uploadedBy": "Admin",
+        "uploadedDate": "2024-05-15",
+        "downloads": 145
+      },
+      {
+        "id": 2,
+        "name": "Tax Incentives Guide",
+        "type": "PDF",
+        "category": "Guidelines",
+        "size": "1.8 MB",
+        "uploadedBy": "Sarah Johnson",
+        "uploadedDate": "2024-05-10",
+        "downloads": 89
+      },
+      {
+        "id": 3,
+        "name": "Application Form Template",
+        "type": "Word Document",
+        "category": "Forms",
+        "size": "456 KB",
+        "uploadedBy": "Michael Chen",
+        "uploadedDate": "2024-05-08",
+        "downloads": 234
+      },
+      {
+        "id": 4,
+        "name": "Investment Opportunities Catalog",
+        "type": "PDF",
+        "category": "Catalogs",
+        "size": "5.2 MB",
+        "uploadedBy": "Admin",
+        "uploadedDate": "2024-05-01",
+        "downloads": 312
+      },
+      {
+        "id": 5,
+        "name": "Legal Requirements Checklist",
+        "type": "Excel",
+        "category": "Guidelines",
+        "size": "128 KB",
+        "uploadedBy": "David Park",
+        "uploadedDate": "2024-04-28",
+        "downloads": 67
+      }
+    ],
+    "categories": [
+      {
+        "name": "All Documents",
+        "count": 48,
+        "color": "bg-blue-50 text-blue-600"
+      },
+      {
+        "name": "Policies",
+        "count": 12,
+        "color": "bg-purple-50 text-purple-600"
+      },
+      {
+        "name": "Guidelines",
+        "count": 18,
+        "color": "bg-green-50 text-green-600"
+      },
+      {
+        "name": "Forms",
+        "count": 10,
+        "color": "bg-orange-50 text-orange-600"
+      },
+      {
+        "name": "Catalogs",
+        "count": 8,
+        "color": "bg-pink-50 text-pink-600"
+      }
+    ]
+  },
+  "AdminStatisticsPage": {
+    "kpiData": [
+      {
+        "label": "Total Investment",
+        "value": "$42.8M",
+        "change": "+12.5%",
+        "trend": "up",
+        "icon": "DollarSign",
+        "color": "text-green-600 bg-green-50"
+      },
+      {
+        "label": "Active Investors",
+        "value": "248",
+        "change": "+8.2%",
+        "trend": "up",
+        "icon": "Users",
+        "color": "text-blue-600 bg-blue-50"
+      },
+      {
+        "label": "Projects Completed",
+        "value": "34",
+        "change": "+5.1%",
+        "trend": "up",
+        "icon": "Building2",
+        "color": "text-purple-600 bg-purple-50"
+      },
+      {
+        "label": "Avg. Processing Time",
+        "value": "18 days",
+        "change": "-3.2%",
+        "trend": "down",
+        "icon": "Calendar",
+        "color": "text-orange-600 bg-orange-50"
+      }
+    ],
+    "sectorData": [
+      {
+        "name": "Tourism",
+        "value": 35,
+        "amount": "$15.2M",
+        "color": "bg-blue-500"
+      },
+      {
+        "name": "Agriculture",
+        "value": 25,
+        "amount": "$10.8M",
+        "color": "bg-green-500"
+      },
+      {
+        "name": "Energy",
+        "value": 20,
+        "amount": "$8.6M",
+        "color": "bg-yellow-500"
+      },
+      {
+        "name": "Manufacturing",
+        "value": 12,
+        "amount": "$5.2M",
+        "color": "bg-purple-500"
+      },
+      {
+        "name": "Technology",
+        "value": 8,
+        "amount": "$3.0M",
+        "color": "bg-pink-500"
+      }
+    ],
+    "monthlyData": [
+      {
+        "month": "Jan",
+        "applications": 12,
+        "investments": 8,
+        "amount": 3.2
+      },
+      {
+        "month": "Feb",
+        "applications": 15,
+        "investments": 10,
+        "amount": 4.5
+      },
+      {
+        "month": "Mar",
+        "applications": 18,
+        "investments": 12,
+        "amount": 5.8
+      },
+      {
+        "month": "Apr",
+        "applications": 22,
+        "investments": 15,
+        "amount": 7.2
+      },
+      {
+        "month": "May",
+        "applications": 20,
+        "investments": 14,
+        "amount": 6.5
+      }
+    ]
+  },
+  "AdminNewsPage": {
+    "newsItems": [
+      {
+        "id": 1,
+        "title": "New Investment Incentive Program Launched",
+        "category": "Announcement",
+        "status": "published",
+        "author": "Admin",
+        "publishDate": "2024-05-20",
+        "views": 1250
+      },
+      {
+        "id": 2,
+        "title": "Panjakent Investment Summit 2024",
+        "category": "Event",
+        "status": "published",
+        "author": "Sarah Johnson",
+        "publishDate": "2024-05-18",
+        "views": 892
+      },
+      {
+        "id": 3,
+        "title": "Tourism Sector Shows Record Growth",
+        "category": "News",
+        "status": "published",
+        "author": "Michael Chen",
+        "publishDate": "2024-05-15",
+        "views": 1580
+      },
+      {
+        "id": 4,
+        "title": "Updated Tax Incentive Guidelines",
+        "category": "Update",
+        "status": "draft",
+        "author": "David Park",
+        "publishDate": "2024-05-22",
+        "views": 0
+      },
+      {
+        "id": 5,
+        "title": "Investor Networking Event - June 2024",
+        "category": "Event",
+        "status": "scheduled",
+        "author": "Admin",
+        "publishDate": "2024-06-01",
+        "views": 0
+      }
+    ],
+    "stats": [
+      {
+        "label": "Total Articles",
+        "value": "48",
+        "color": "bg-blue-50 text-blue-600"
+      },
+      {
+        "label": "Published",
+        "value": "32",
+        "color": "bg-green-50 text-green-600"
+      },
+      {
+        "label": "Draft",
+        "value": "12",
+        "color": "bg-yellow-50 text-yellow-600"
+      },
+      {
+        "label": "Scheduled",
+        "value": "4",
+        "color": "bg-purple-50 text-purple-600"
+      }
+    ]
+  },
+  "AdminCMSPage": {
+    "pages": [
+      {
+        "id": 1,
+        "title": "Home Page",
+        "slug": "/",
+        "status": "published",
+        "lastModified": "2024-05-20",
+        "modifiedBy": "Admin",
+        "language": "EN"
+      },
+      {
+        "id": 2,
+        "title": "About Panjakent",
+        "slug": "/about",
+        "status": "published",
+        "lastModified": "2024-05-18",
+        "modifiedBy": "Sarah Johnson",
+        "language": "EN"
+      },
+      {
+        "id": 3,
+        "title": "Investment Opportunities",
+        "slug": "/opportunities",
+        "status": "published",
+        "lastModified": "2024-05-15",
+        "modifiedBy": "Michael Chen",
+        "language": "EN"
+      },
+      {
+        "id": 4,
+        "title": "Investor Guide",
+        "slug": "/guide",
+        "status": "published",
+        "lastModified": "2024-05-12",
+        "modifiedBy": "David Park",
+        "language": "EN"
+      },
+      {
+        "id": 5,
+        "title": "Contact Us",
+        "slug": "/contact",
+        "status": "published",
+        "lastModified": "2024-05-10",
+        "modifiedBy": "Admin",
+        "language": "EN"
+      },
+      {
+        "id": 6,
+        "title": "Investment Map",
+        "slug": "/map",
+        "status": "published",
+        "lastModified": "2024-05-08",
+        "modifiedBy": "Sarah Johnson",
+        "language": "EN"
+      },
+      {
+        "id": 7,
+        "title": "Terms and Conditions",
+        "slug": "/terms",
+        "status": "draft",
+        "lastModified": "2024-05-22",
+        "modifiedBy": "Admin",
+        "language": "EN"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Total Pages",
+        "value": "24",
+        "color": "bg-blue-50 text-blue-600"
+      },
+      {
+        "label": "Published",
+        "value": "18",
+        "color": "bg-green-50 text-green-600"
+      },
+      {
+        "label": "Draft",
+        "value": "6",
+        "color": "bg-yellow-50 text-yellow-600"
+      },
+      {
+        "label": "Translations",
+        "value": "48",
+        "color": "bg-purple-50 text-purple-600"
+      }
+    ]
+  },
+  "AdminLanguagesPage": {
+    "languages": [
+      {
+        "id": 1,
+        "name": "English",
+        "code": "en",
+        "flag": "🇬🇧",
+        "isDefault": true,
+        "isActive": true,
+        "translationProgress": 100,
+        "lastUpdated": "2024-05-20"
+      },
+      {
+        "id": 2,
+        "name": "Tajik",
+        "code": "tj",
+        "flag": "🇹🇯",
+        "isDefault": false,
+        "isActive": true,
+        "translationProgress": 95,
+        "lastUpdated": "2024-05-19"
+      },
+      {
+        "id": 3,
+        "name": "Russian",
+        "code": "ru",
+        "flag": "🇷🇺",
+        "isDefault": false,
+        "isActive": true,
+        "translationProgress": 88,
+        "lastUpdated": "2024-05-18"
+      },
+      {
+        "id": 4,
+        "name": "French",
+        "code": "fr",
+        "flag": "🇫🇷",
+        "isDefault": false,
+        "isActive": false,
+        "translationProgress": 45,
+        "lastUpdated": "2024-05-10"
+      },
+      {
+        "id": 5,
+        "name": "Chinese",
+        "code": "zh",
+        "flag": "🇨🇳",
+        "isDefault": false,
+        "isActive": false,
+        "translationProgress": 30,
+        "lastUpdated": "2024-04-28"
+      }
+    ],
+    "translationKeys": [
+      {
+        "key": "common.welcome",
+        "en": "Welcome to Invest Panjakent",
+        "tj": "Хуш омадед ба Invest Panjakent",
+        "ru": "Добро пожаловать в Invest Panjakent",
+        "category": "Common"
+      },
+      {
+        "key": "nav.opportunities",
+        "en": "Investment Opportunities",
+        "tj": "Имконоти сармоягузорӣ",
+        "ru": "Инвестиционные возможности",
+        "category": "Navigation"
+      },
+      {
+        "key": "nav.guide",
+        "en": "Investor Guide",
+        "tj": "Дастури сармоягузор",
+        "ru": "Руководство инвестора",
+        "category": "Navigation"
+      },
+      {
+        "key": "button.submit",
+        "en": "Submit",
+        "tj": "Пешниҳод кардан",
+        "ru": "Отправить",
+        "category": "Buttons"
+      }
+    ]
+  },
+  "AdminUsersPage": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Sarah Johnson",
+        "email": "sarah.johnson@panjakent.tj",
+        "role": "Admin",
+        "status": "active",
+        "lastLogin": "2024-05-24",
+        "createdAt": "2024-01-15"
+      },
+      {
+        "id": 2,
+        "name": "Michael Chen",
+        "email": "michael.chen@panjakent.tj",
+        "role": "Editor",
+        "status": "active",
+        "lastLogin": "2024-05-23",
+        "createdAt": "2024-02-10"
+      },
+      {
+        "id": 3,
+        "name": "David Park",
+        "email": "david.park@panjakent.tj",
+        "role": "Editor",
+        "status": "active",
+        "lastLogin": "2024-05-22",
+        "createdAt": "2024-02-15"
+      },
+      {
+        "id": 4,
+        "name": "Emma Wilson",
+        "email": "emma.wilson@panjakent.tj",
+        "role": "Viewer",
+        "status": "active",
+        "lastLogin": "2024-05-20",
+        "createdAt": "2024-03-05"
+      },
+      {
+        "id": 5,
+        "name": "James Brown",
+        "email": "james.brown@panjakent.tj",
+        "role": "Editor",
+        "status": "inactive",
+        "lastLogin": "2024-04-15",
+        "createdAt": "2024-01-20"
+      }
+    ],
+    "roles": [
+      {
+        "name": "Admin",
+        "count": 2,
+        "permissions": [
+          "Full access",
+          "User management",
+          "System settings"
+        ],
+        "color": "bg-red-50 text-red-700"
+      },
+      {
+        "name": "Editor",
+        "count": 8,
+        "permissions": [
+          "Create & edit content",
+          "Review applications",
+          "Manage documents"
+        ],
+        "color": "bg-blue-50 text-blue-700"
+      },
+      {
+        "name": "Viewer",
+        "count": 12,
+        "permissions": [
+          "View content",
+          "Export reports",
+          "Access statistics"
+        ],
+        "color": "bg-green-50 text-green-700"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Total Users",
+        "value": "22",
+        "color": "bg-blue-50 text-blue-600"
+      },
+      {
+        "label": "Active Users",
+        "value": "18",
+        "color": "bg-green-50 text-green-600"
+      },
+      {
+        "label": "Inactive Users",
+        "value": "4",
+        "color": "bg-gray-50 text-gray-600"
+      },
+      {
+        "label": "Admin Roles",
+        "value": "2",
+        "color": "bg-red-50 text-red-600"
+      }
+    ]
+  },
+  "AdminActivityPage": {
+    "activities": [
+      {
+        "id": 1,
+        "user": "Sarah Johnson",
+        "action": "Created new project",
+        "target": "Solar Farm Development",
+        "timestamp": "2024-05-24 10:35:22",
+        "category": "Projects",
+        "type": "create"
+      },
+      {
+        "id": 2,
+        "user": "Michael Chen",
+        "action": "Updated application status",
+        "target": "APP-2024-001",
+        "timestamp": "2024-05-24 10:15:45",
+        "category": "Applications",
+        "type": "update"
+      },
+      {
+        "id": 3,
+        "user": "Admin",
+        "action": "Published news article",
+        "target": "New Investment Incentive Program Launched",
+        "timestamp": "2024-05-24 09:50:12",
+        "category": "News",
+        "type": "publish"
+      },
+      {
+        "id": 4,
+        "user": "David Park",
+        "action": "Uploaded document",
+        "target": "Investment Policy Framework 2024.pdf",
+        "timestamp": "2024-05-24 09:30:08",
+        "category": "Documents",
+        "type": "upload"
+      },
+      {
+        "id": 5,
+        "user": "Sarah Johnson",
+        "action": "Modified user permissions",
+        "target": "Emma Wilson",
+        "timestamp": "2024-05-24 09:10:33",
+        "category": "Users",
+        "type": "update"
+      },
+      {
+        "id": 6,
+        "user": "Michael Chen",
+        "action": "Approved application",
+        "target": "APP-2024-003",
+        "timestamp": "2024-05-23 16:45:21",
+        "category": "Applications",
+        "type": "approve"
+      },
+      {
+        "id": 7,
+        "user": "Admin",
+        "action": "Created land plot",
+        "target": "PLOT-006 - Commercial Zone B",
+        "timestamp": "2024-05-23 15:20:17",
+        "category": "Map",
+        "type": "create"
+      },
+      {
+        "id": 8,
+        "user": "David Park",
+        "action": "Updated CMS page",
+        "target": "Investment Opportunities",
+        "timestamp": "2024-05-23 14:05:42",
+        "category": "CMS",
+        "type": "update"
+      },
+      {
+        "id": 9,
+        "user": "Sarah Johnson",
+        "action": "Deleted news article",
+        "target": "Outdated Announcement",
+        "timestamp": "2024-05-23 13:30:55",
+        "category": "News",
+        "type": "delete"
+      },
+      {
+        "id": 10,
+        "user": "Michael Chen",
+        "action": "Added translation",
+        "target": "common.welcome (Tajik)",
+        "timestamp": "2024-05-23 11:15:28",
+        "category": "Languages",
+        "type": "create"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Today",
+        "value": "24",
+        "color": "bg-blue-50 text-blue-600"
+      },
+      {
+        "label": "This Week",
+        "value": "156",
+        "color": "bg-green-50 text-green-600"
+      },
+      {
+        "label": "This Month",
+        "value": "892",
+        "color": "bg-purple-50 text-purple-600"
+      },
+      {
+        "label": "Total Users",
+        "value": "18",
+        "color": "bg-orange-50 text-orange-600"
+      }
+    ]
+  },
+  "AdminSettingsPage": {
+    "tabs": [
+      {
+        "id": "general",
+        "label": "General",
+        "icon": "Settings"
+      },
+      {
+        "id": "appearance",
+        "label": "Appearance",
+        "icon": "Palette"
+      },
+      {
+        "id": "notifications",
+        "label": "Notifications",
+        "icon": "Bell"
+      },
+      {
+        "id": "security",
+        "label": "Security",
+        "icon": "Shield"
+      },
+      {
+        "id": "email",
+        "label": "Email",
+        "icon": "Mail"
+      },
+      {
+        "id": "advanced",
+        "label": "Advanced",
+        "icon": "Database"
+      }
+    ]
+  },
+  "Admin404Page": {},
+  "Header": {
+    "navItems": [
+      {
+        "name": "Why Panjakent",
+        "path": "/#why"
+      },
+      {
+        "name": "Opportunities",
+        "path": "/opportunities"
+      },
+      {
+        "name": "Investment Map",
+        "path": "/map"
+      },
+      {
+        "name": "Investor Guide",
+        "path": "/guide"
+      },
+      {
+        "name": "Data & Statistics",
+        "path": "/data"
+      },
+      {
+        "name": "Documents",
+        "path": "/documents"
+      },
+      {
+        "name": "Contact",
+        "path": "/contact"
+      }
+    ],
+    "languages": [
+      {
+        "code": "EN",
+        "name": "English"
+      },
+      {
+        "code": "RU",
+        "name": "Русский"
+      },
+      {
+        "code": "TJ",
+        "name": "Тоҷикӣ"
+      }
+    ]
+  },
+  "TopBar": {},
+  "Footer": {},
+  "AdminSidebar": {
+    "menuItems": [
+      {
+        "icon": "LayoutDashboard",
+        "label": "Dashboard",
+        "path": "/admin"
+      },
+      {
+        "icon": "Building2",
+        "label": "Investment Projects",
+        "path": "/admin/projects"
+      },
+      {
+        "icon": "Users",
+        "label": "Investors / CRM",
+        "path": "/admin/crm"
+      },
+      {
+        "icon": "FileText",
+        "label": "Applications",
+        "path": "/admin/applications"
+      },
+      {
+        "icon": "Map",
+        "label": "Map Objects / Land Plots",
+        "path": "/admin/map"
+      },
+      {
+        "icon": "FolderOpen",
+        "label": "Documents",
+        "path": "/admin/documents"
+      },
+      {
+        "icon": "BarChart3",
+        "label": "Statistics",
+        "path": "/admin/statistics"
+      },
+      {
+        "icon": "Newspaper",
+        "label": "News and Events",
+        "path": "/admin/news"
+      },
+      {
+        "icon": "FileCode",
+        "label": "Pages / CMS",
+        "path": "/admin/cms"
+      },
+      {
+        "icon": "Languages",
+        "label": "Languages",
+        "path": "/admin/languages"
+      },
+      {
+        "icon": "Shield",
+        "label": "Users and Roles",
+        "path": "/admin/users"
+      },
+      {
+        "icon": "Activity",
+        "label": "Activity Log",
+        "path": "/admin/activity"
+      },
+      {
+        "icon": "Settings",
+        "label": "Settings",
+        "path": "/admin/settings"
+      }
+    ]
+  }
+}

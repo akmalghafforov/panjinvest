@@ -1,0 +1,50 @@
+name: panjinvest-development
+
+services:
+  app:
+    image: ${PANJINVEST_IMAGE:?Set PANJINVEST_IMAGE to an immutable image tag}
+    container_name: panjinvest-development-app
+    restart: unless-stopped
+    env_file: .env.development
+    volumes:
+      - panjinvest-development-storage:/var/www/html/storage
+      - panjinvest-development-database:/var/www/html/database
+    networks:
+      - panjinvest-development
+      - traefik-net
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=traefik-net
+      - traefik.http.routers.panjinvest-development.rule=Host(`dev.panjinvest.com`)
+      - traefik.http.routers.panjinvest-development.entrypoints=web
+      - traefik.http.routers.panjinvest-development.middlewares=https-redirect@file
+      - traefik.http.routers.panjinvest-development-secure.rule=Host(`dev.panjinvest.com`)
+      - traefik.http.routers.panjinvest-development-secure.entrypoints=websecure
+      - traefik.http.routers.panjinvest-development-secure.tls=true
+      - traefik.http.routers.panjinvest-development-secure.tls.certresolver=cloudflare
+      - traefik.http.services.panjinvest-development.loadbalancer.server.port=8080
+
+  queue:
+    image: ${PANJINVEST_IMAGE:?Set PANJINVEST_IMAGE to an immutable image tag}
+    container_name: panjinvest-development-queue
+    restart: unless-stopped
+    env_file: .env.development
+    command: php artisan queue:work --sleep=3 --tries=3 --max-time=3600
+    volumes:
+      - panjinvest-development-storage:/var/www/html/storage
+      - panjinvest-development-database:/var/www/html/database
+    networks:
+      - panjinvest-development
+
+networks:
+  panjinvest-development:
+    name: panjinvest-development
+  traefik-net:
+    external: true
+    name: traefik-net
+
+volumes:
+  panjinvest-development-storage:
+    name: panjinvest-development-storage
+  panjinvest-development-database:
+    name: panjinvest-development-database

@@ -1,0 +1,59 @@
+name: panjinvest-local
+
+services:
+  app:
+    build:
+      context: .
+      target: local
+    container_name: panjinvest-local-app
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./:/var/www/html
+    networks:
+      - panjinvest-local
+      - traefik-net
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=traefik-net
+      - traefik.http.routers.panjinvest-local.rule=Host(`panjinvest.test`)
+      - traefik.http.routers.panjinvest-local.entrypoints=web
+      - traefik.http.services.panjinvest-local.loadbalancer.server.port=8080
+
+  queue:
+    build:
+      context: .
+      target: local
+    container_name: panjinvest-local-queue
+    restart: unless-stopped
+    env_file: .env
+    command: php artisan queue:work --sleep=3 --tries=3 --max-time=3600
+    volumes:
+      - ./:/var/www/html
+    networks:
+      - panjinvest-local
+
+  vite:
+    image: node:22-alpine
+    container_name: panjinvest-local-vite
+    working_dir: /var/www/html
+    restart: unless-stopped
+    command: sh -lc 'test -x node_modules/.bin/vite || npm ci; npm run dev -- --host 0.0.0.0'
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./:/var/www/html
+      - panjinvest-local-node-modules:/var/www/html/node_modules
+    networks:
+      - panjinvest-local
+
+networks:
+  panjinvest-local:
+    name: panjinvest-local
+  traefik-net:
+    external: true
+    name: traefik-net
+
+volumes:
+  panjinvest-local-node-modules:
+    name: panjinvest-local-node-modules
