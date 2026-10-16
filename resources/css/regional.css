@@ -862,3 +862,134 @@ body[data-layout=frontend] main {
   height:100%;
   line-height:1
 }
+
+/* Expanded homepage context and sector guidance. */
+.heritage-hero > img {
+  object-position: center 55%;
+}
+.heritage-hero .hero-shade {
+  background: linear-gradient(90deg, rgba(7, 30, 40, .91), rgba(7, 30, 40, .60) 52%, rgba(7, 30, 40, .18));
+}
+.home-introduction, .investor-questions {
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 80px;
+}
+.home-introduction > div > p, .investor-questions > div > p {
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+.home-introduction .lead {
+  font-size: 19px;
+  color: #294c4f;
+}
+.region-facts {
+  border-left: 1px solid #d6e0d5;
+  padding-left: 40px;
+}
+.region-facts article + article {
+  border-top: 1px solid #d6e0d5;
+  margin-top: 20px;
+  padding-top: 24px;
+}
+.region-facts h3 {
+  margin-top: 8px;
+}
+.region-facts p {
+  font-size: 13px;
+}
+.sector-overview {
+  background: #eaf0e8;
+}
+.sector-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 26px;
+}
+.sector-feature {
+  background: #fafcf7;
+  border: 1px solid #d6e0d1;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.sector-feature > img {
+  width: 100%;
+  aspect-ratio: 1.8;
+  object-fit: cover;
+}
+.sector-feature > div {
+  padding: 24px;
+}
+.sector-feature-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.sector-feature-label > span:last-child {
+  color: #566e5b;
+  font-size: 11px;
+}
+.sector-feature p {
+  font-size: 13px;
+}
+.sector-assessment {
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid #d6e0d1;
+}
+.sector-assessment strong {
+  display: block;
+  color: #244c40;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
+.home-faq details {
+  border-bottom: 1px solid #cbd8cc;
+  padding-block: 8px;
+}
+.home-faq details:first-child {
+  border-top: 1px solid #cbd8cc;
+}
+.home-faq summary {
+  padding-block: 16px;
+  min-height: 48px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.home-faq p {
+  font-size: 13px;
+  padding-bottom: 16px;
+}
+@media (max-width: 1000px) {
+  .home-introduction, .investor-questions {
+    gap: 36px;
+  }
+  .sector-overview-grid {
+    gap: 16px;
+  }
+  .sector-feature > div {
+    padding: 18px;
+  }
+}
+@media (max-width: 700px) {
+  .home-introduction, .investor-questions, .sector-overview-grid {
+    grid-template-columns: 1fr;
+  }
+  .region-facts {
+    padding-left: 0;
+    border-left: 0;
+  }
+  .region-facts article:first-child {
+    border-top: 1px solid #d6e0d5;
+    padding-top: 24px;
+  }
+  .sector-overview-grid {
+    gap: 24px;
+  }
+  .heritage-hero > img {
+    object-position: 62% center;
+  }
+}
