@@ -71,3 +71,9 @@ Screenshots and the comparison matrix are written to `storage/app/verification` 
 
 Original Figma source: https://www.figma.com/design/uOXVGCAPVO6QIvL83F3Cnx/Invest-Panjakent
 # panjinvest
+
+## Public news
+
+Public news lives in `resources/data/news.json`; the admin news screen remains a demo. Each entry has a unique readable `id` slug (used in `/news/{id}`), `title`, ISO `date` (`YYYY-MM-DD`), `excerpt`, `body` (an array of plain-text paragraphs), numeric `image`, descriptive `alt`, and boolean `sample`. Articles sort newest first; equal dates sort by slug. The homepage shows up to three articles. An empty array hides the preview and shows “No news yet” on the listing.
+
+To add or replace an article, edit the JSON and validate it with `php artisan test --filter=NewsTest`. Replace the initial illustrative copy with verified, approved content and set `sample` to `false` for real articles. Never place HTML in article text; Blade escapes it. Image references reuse `public/images/concepts/{image}-{width}.webp` (480 and 960 variants). Keep descriptive alt text and maintain the existing source/license records in `public/images/concepts/credits.json` and `ATTRIBUTIONS.md` when changing photographs.

@@ -9,17 +9,35 @@ page.on('pageerror',e=>errors.push(e.message));
 page.on('request',r=>{if(r.method()!=='GET')writes.push(r.url());if(!r.url().startsWith('http://127.0.0.1:8000')&&!r.url().startsWith('data:')&&!r.url().startsWith('https://tile.openstreetmap.org/'))external.push(r.url())});
 const goto=async uri=>{console.log('Checking',uri);await page.goto('http://127.0.0.1:8000'+uri,{waitUntil:'domcontentloaded'});await page.waitForTimeout(300)};
 for(const r of [...JSON.parse(fs.readFileSync('tests/route-matrix.json')),{path:'/missing'},{path:'/admin/missing'}]){
- await goto(r.path.replace('{id}',r.path==='/opportunities/{id}'?'seven-lakes-guesthouses':'example-slug'));
+ await goto(r.path.replace('{id}',r.id||(r.path==='/opportunities/{id}'?'seven-lakes-guesthouses':'example-slug')));
  await expect(page.locator('body')).toHaveAttribute('data-layout',r.layout|| (r.path.startsWith('/admin')?'backend':'frontend'));
- expect(await page.locator('img').evaluateAll(xs=>xs.filter(x=>!x.naturalWidth).map(x=>x.src))).toEqual([]);
+ await page.locator('img').evaluateAll(xs=>xs.forEach(x=>x.loading='eager'));
+ await expect.poll(()=>page.locator('img').evaluateAll(xs=>xs.filter(x=>!x.naturalWidth).map(x=>x.src))).toEqual([]);
 }
+await goto('/news');
+await expect(page.locator('.news-card')).toHaveCount(3);
+await expect(page.locator('header a[aria-current="page"]')).toHaveText('News');
+await page.locator('.news-card h3 a').first().focus();
+expect(await page.locator('.news-card h3 a').first().evaluate(el=>getComputedStyle(el).outlineStyle)).toBe('solid');
+await page.keyboard.press('Enter');await page.waitForURL('**/news/exploring-thoughtful-tourism');
+await expect(page.getByText('Sample article.',{exact:false}).first()).toBeVisible();
+await expect(page.locator('header a[aria-current="page"]')).toHaveText('News');
+await page.getByRole('link',{name:'Back to news'}).click();await page.waitForURL('**/news');
+await page.getByText('Photography credits & licenses').click();await expect(page.locator('.photo-credits a').first()).toBeVisible();
+for(const width of [700,701,900,901,1000]) {
+ await page.setViewportSize({width,height:900});await goto('/news');
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+ if(width<=1200) await page.getByRole('button',{name:'Menu',exact:true}).click();
+ await page.locator('header').getByRole('link',{name:'News',exact:true}).click();await page.waitForURL('**/news');
+}
+await page.setViewportSize({width:1440,height:1000});
 await goto('/opportunities');
 await expect(page.locator('.concept-card')).toHaveCount(6);
 await page.getByPlaceholder('Search opportunities...').fill('Honey');await expect(page.locator('.concept-card')).toHaveCount(1);
 await page.getByRole('link',{name:'View on map'}).click();await expect(page.locator('.map-result')).toHaveCount(1);expect(page.url()).toContain('q=Honey');
 await goto('/opportunities');await page.getByPlaceholder('Search opportunities...').fill('zzzz');await expect(page.getByText('No opportunities found')).toBeVisible();await page.getByRole('button',{name:'Clear filters',exact:true}).click();
 await page.getByLabel('Sector',{exact:true}).selectOption('Tourism');await expect(page.locator('.concept-card')).toHaveCount(2);
-await page.getByLabel('Sector',{exact:true}).selectOption('');await page.getByLabel('Sort by').selectOption('az');expect(await page.locator('.concept-card h3').first().innerText()).toContain('Heritage');
+await page.getByLabel('Sector',{exact:true}).selectOption('');await page.getByLabel('Sort by').selectOption('az');expect(await page.locator('.concept-card h2').first().innerText()).toContain('Heritage');
 await goto('/portal');await page.getByRole('button',{name:'Saved',exact:true}).click();await expect(page.getByRole('heading',{name:'Saved Opportunities',exact:true,level:2})).toBeVisible();
 await goto('/admin/settings');await expect(page.locator('input[type=text]').first()).toHaveValue('Invest Panjakent');await expect(page.locator('textarea')).toHaveValue('Investment opportunities in Panjakent, Tajikistan');await page.getByRole('button',{name:'Security',exact:true}).click();await expect(page.getByText('Security Settings')).toBeVisible();
 await goto('/map');await expect(page.locator('.concept-marker')).toHaveCount(2);await expect(page.locator('.concept-marker').filter({hasText:'5'})).toBeVisible();
@@ -38,7 +56,7 @@ await expect(page.getByRole('button',{name:'Submit Interest',exact:true})).toBeD
 await goto('/admin');await page.locator('aside button').filter({has:page.locator('use[href="#icon-ChevronLeft"]')}).click();await expect(page.locator('aside')).toHaveClass(/w-20/);await page.locator('aside button').filter({has:page.locator('use[href="#icon-ChevronRight"]')}).click();await expect(page.locator('aside')).toHaveClass(/w-64/);
 await page.setViewportSize({width:390,height:844});await goto('/');
 await page.getByRole('button',{name:'Menu',exact:true}).click();await page.locator('header').getByRole('link',{name:'Opportunities',exact:true}).click();await page.waitForURL('**/opportunities');
-for(const width of [390,768,1440]){await page.setViewportSize({width,height:900});for(const path of ['/','/opportunities','/map','/opportunities/panjakent-suzani']){await goto(path);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.locator('img').evaluateAll(xs=>xs.forEach(x=>x.loading='eager'));if(path==='/'){await page.locator('[data-map-preview]').scrollIntoViewIfNeeded();await expect(page.locator('.concept-marker')).toHaveCount(2)}await expect.poll(()=>page.locator('img').evaluateAll(xs=>xs.every(x=>x.complete&&x.naturalWidth>0))).toBe(true);await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:`/tmp/panjakent-${width}-${path==='/'?'home':path.split('/').pop()}.png`,fullPage:true})}}
+for(const width of [390,768,1440]){await page.setViewportSize({width,height:900});for(const path of ['/','/opportunities','/map','/opportunities/panjakent-suzani','/news','/news/exploring-thoughtful-tourism']){await goto(path);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.locator('img').evaluateAll(xs=>xs.forEach(x=>x.loading='eager'));if(path==='/'){await expect(page.locator('.home-explorer .concept-card')).toHaveCount(6)}await expect.poll(()=>page.locator('img').evaluateAll(xs=>xs.every(x=>x.complete&&x.naturalWidth>0))).toBe(true);await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:`/tmp/panjakent-${width}-${path==='/'?'home':path.split('/').pop()}.png`,fullPage:true})}}
 await page.setViewportSize({width:390,height:844});await goto('/map');await page.getByRole('button',{name:'Show list',exact:true}).click();await expect(page.locator('.map-results')).toBeVisible();await page.getByRole('button',{name:'Filters',exact:true}).click();await page.getByLabel('Sector',{exact:true}).selectOption('Crafts');await expect(page.locator('.map-result')).toHaveCount(1);await page.getByRole('button',{name:'Close filters ×',exact:true}).click();
 await page.unroute('https://tile.openstreetmap.org/**');await page.route('https://tile.openstreetmap.org/**',route=>route.abort());await goto('/map');await expect(page.getByText('Map tiles unavailable.',{exact:false})).toBeVisible();await page.unroute('https://tile.openstreetmap.org/**');await page.route('https://tile.openstreetmap.org/**',route=>route.fulfill({status:200,contentType:'image/png',body:tile}));await page.getByRole('button',{name:'Retry map',exact:true}).click();await expect(page.locator('.map-notice')).toBeHidden();
 await goto('/admin');await page.getByRole('button',{name:'Open admin menu'}).click();await expect(page.getByRole('link',{name:'Investment Projects'})).toBeVisible();await page.getByRole('link',{name:'Investment Projects'}).click();await page.waitForURL('**/admin/projects');

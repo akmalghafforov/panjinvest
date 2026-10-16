@@ -5,7 +5,7 @@
     "view": "frontend.pages.home",
     "page": "HomePage",
     "layout": "frontend",
-    "content": "A remarkable place."
+    "content": "Invest in"
   },
   {
     "path": "/opportunities",
@@ -13,7 +13,7 @@
     "view": "frontend.pages.opportunities",
     "page": "OpportunitiesPage",
     "layout": "frontend",
-    "content": "Ideas worth exploring."
+    "content": "Investment opportunities."
   },
   {
     "path": "/opportunities/{id}",
@@ -206,5 +206,22 @@
     "page": "AdminSettingsPage",
     "layout": "backend",
     "content": "Settings"
+  },
+  {
+    "path": "/news",
+    "name": "frontend.news",
+    "view": "frontend.pages.news",
+    "page": "NewsPage",
+    "layout": "frontend",
+    "content": "News"
+  },
+  {
+    "path": "/news/{id}",
+    "id": "exploring-thoughtful-tourism",
+    "name": "frontend.news.show",
+    "view": "frontend.pages.news-detail",
+    "page": "NewsDetailPage",
+    "layout": "frontend",
+    "content": "Exploring thoughtful tourism"
   }
 ]

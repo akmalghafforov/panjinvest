@@ -21,7 +21,7 @@ class PageRoutesTest extends TestCase
     #[DataProvider('pages')]
     public function test_page_renders_in_its_layout(array $route): void
     {
-        $this->get(str_replace('{id}', $route['path'] === '/opportunities/{id}' ? 'seven-lakes-guesthouses' : 'example-slug', $route['path']))
+        $this->get(str_replace('{id}', $route['id'] ?? ($route['path'] === '/opportunities/{id}' ? 'seven-lakes-guesthouses' : 'example-slug'), $route['path']))
             ->assertOk()
             ->assertViewIs($route['view'])
             ->assertSee('data-layout="'.$route['layout'].'"', false)

@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" href="{{ asset('fonts/fonts.css') }}">
 <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Investment opportunities and investor support in Panjakent, Tajikistan.">
-<title>Invest Panjakent</title>
+<meta name="description" content="{{ $pageDescription ?? 'Investment opportunities and investor support in Panjakent, Tajikistan.' }}">
+<title>{{ $pageTitle ?? 'Invest Panjakent' }}</title>
 
 @include('components.context')
 @vite(['resources/css/app.css', 'resources/js/frontend.js'])
@@ -13,13 +14,14 @@
 </head>
 <body data-layout="frontend">
 
+<a class="skip-link" href="#main-content">Skip to content</a>
 @include('components.icons')
-<div class="min-h-screen flex flex-col bg-[#F6F8FA]">
+<div class="min-h-screen flex flex-col bg-white">
 
-@include('frontend.partials.top-bar')
+
 
 @include('frontend.partials.header')
-<main class="flex-1">@yield('content')</main>
+<main id="main-content" tabindex="-1" class="flex-1">@yield('content')</main>
 
 @include('frontend.partials.footer')
 </div>

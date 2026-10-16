@@ -1,0 +1,44 @@
+[
+  {
+    "id": "exploring-thoughtful-tourism",
+    "title": "Exploring thoughtful tourism",
+    "date": "2026-10-03",
+    "excerpt": "A sample perspective on researching visitor experiences around Panjakent.",
+    "body": [
+      "This sample article illustrates how future tourism news could appear on this website. It does not announce a project, event or investment.",
+      "A tourism concept can begin with questions about the visitor experience: how people travel, where they stay and how local hosts want to participate. Seasonal access, water and sanitation, and service quality are useful topics for a feasibility study.",
+      "Future articles could share verified research and practical guidance, with sources and dates checked before publication."
+    ],
+    "image": 1,
+    "alt": "Mountain lake in the Fann Mountains of Tajikistan",
+    "sample": true
+  },
+  {
+    "id": "adding-value-to-local-harvests",
+    "title": "Adding value to local harvests",
+    "date": "2026-10-02",
+    "excerpt": "An illustrative look at the questions behind agricultural value chains.",
+    "body": [
+      "This is sample editorial content, not an announcement of a new facility, funding commitment or commercial result.",
+      "Ideas for fruit handling, drying and packaging need careful assessment of supply, food safety, energy and market access. Conversations with willing producers can help identify the questions a feasibility study should answer.",
+      "A future update could report verified findings about these topics once suitable evidence and permission to publish are available."
+    ],
+    "image": 3,
+    "alt": "Fruit displayed at a Tajik cultural celebration",
+    "sample": true
+  },
+  {
+    "id": "sharing-craft-knowledge",
+    "title": "Sharing craft knowledge",
+    "date": "2026-10-01",
+    "excerpt": "Sample reading on craft workshops, learning and responsible visitor experiences.",
+    "body": [
+      "This sample article demonstrates a possible crafts story. It does not describe an actual workshop opening, partnership or investment outcome.",
+      "A craft experience should start with the priorities of participating artisans. Fair compensation, materials, teaching time and control over how knowledge is shared are useful subjects for discussion.",
+      "Future news could feature approved artisan stories and verified workshop information. This illustrative text should be replaced before publishing real announcements."
+    ],
+    "image": 5,
+    "alt": "Traditional Tajik suzani embroidery",
+    "sample": true
+  }
+]

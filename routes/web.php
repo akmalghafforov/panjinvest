@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', \App\Http\Controllers\Frontend\HomeController::class)->name('frontend.home');
+Route::get('/news', \App\Http\Controllers\Frontend\NewsController::class)->name('frontend.news');
+Route::get('/news/{id}', \App\Http\Controllers\Frontend\NewsDetailController::class)->name('frontend.news.show');
 Route::get('/opportunities', \App\Http\Controllers\Frontend\OpportunitiesController::class)->name('frontend.opportunities');
 Route::get('/opportunities/{id}', \App\Http\Controllers\Frontend\ProjectDetailController::class)->name('frontend.opportunities.show');
 Route::get('/map', \App\Http\Controllers\Frontend\InvestmentMapController::class)->name('frontend.map');
